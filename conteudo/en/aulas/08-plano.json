@@ -145,7 +145,7 @@
         "abas": [
           {
             "rot": "Schedule",
-            "html": "<p>In chat, you’re in charge of the schedule: the plan below creates an <code>.ics</code> file with reminders for your calendar (\"Monday 9 a.m.: report\"). Getting the agent to run on its own at the scheduled time takes a terminal step, which the course <a href=\"https://inematds.github.io/do-chat-ao-agente-v72/en/\" target=\"_blank\" rel=\"noopener\">From chat to agent</a> shows you. Start with the reminder: calling the agent at the right time already takes the boring work off your hands.</p>"
+            "html": "<p>In chat, you’re in charge of the schedule: the plan below creates an <code>.ics</code> file with reminders for your calendar (\"Monday 9 a.m.: report\"). Getting the agent to run on its own at the scheduled time takes a terminal step, which the course <a href=\"https://linnoff88-dev.github.io/arckhe-/en/\" target=\"_blank\" rel=\"noopener\">From chat to agent</a> shows you. Start with the reminder: calling the agent at the right time already takes the boring work off your hands.</p>"
           },
           {
             "rot": "Common mistakes",
@@ -315,12 +315,12 @@
       "links": [
         {
           "t": "Course: From chat to agent (terminal, queues, and scheduling)",
-          "href": "https://inematds.github.io/do-chat-ao-agente-v72/en/",
+          "href": "https://linnoff88-dev.github.io/arckhe-/en/",
           "icone": "camadas"
         },
         {
-          "t": "Free courses on INEMA.CLUB",
-          "href": "https://inema.club/",
+          "t": "Free courses on ARCKHÉ AI",
+          "href": "https://ARCKHÉ AI/",
           "icone": "seta"
         }
       ]

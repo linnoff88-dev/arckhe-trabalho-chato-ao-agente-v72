@@ -145,7 +145,7 @@
         "abas": [
           {
             "rot": "Agendar",
-            "html": "<p>No chat, a agenda é sua: o plano abaixo gera um arquivo <code>.ics</code> com os lembretes para o seu calendário (\"segunda 9h: relatório\"). Fazer o agente rodar sozinho na hora marcada é um passo de terminal, que o curso <a href=\"https://inematds.github.io/do-chat-ao-agente-v72/\" target=\"_blank\" rel=\"noopener\">Do chat ao agente</a> mostra. Comece pelo lembrete: o agente que você chama na hora certa já tira o trabalho chato.</p>"
+            "html": "<p>No chat, a agenda é sua: o plano abaixo gera um arquivo <code>.ics</code> com os lembretes para o seu calendário (\"segunda 9h: relatório\"). Fazer o agente rodar sozinho na hora marcada é um passo de terminal, que o curso <a href=\"https://linnoff88-dev.github.io/arckhe-/\" target=\"_blank\" rel=\"noopener\">Do chat ao agente</a> mostra. Comece pelo lembrete: o agente que você chama na hora certa já tira o trabalho chato.</p>"
           },
           {
             "rot": "Erros comuns",
@@ -315,12 +315,12 @@
       "links": [
         {
           "t": "Curso: Do chat ao agente (terminal, filas e agendamento)",
-          "href": "https://inematds.github.io/do-chat-ao-agente-v72/",
+          "href": "https://linnoff88-dev.github.io/arckhe-/",
           "icone": "camadas"
         },
         {
-          "t": "Cursos abertos no INEMA.CLUB",
-          "href": "https://inema.club/",
+          "t": "Cursos abertos no ARCKHÉ AI",
+          "href": "https://ARCKHÉ AI/",
           "icone": "seta"
         }
       ]

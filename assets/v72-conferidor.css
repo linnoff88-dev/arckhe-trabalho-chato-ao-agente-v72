@@ -1,4 +1,4 @@
-/* INEMA Learning 7.12.15 — conferidor (o aluno cola o arquivo e a página confere). Só variáveis do tema. */
+/* ARCKHÉ Learning 7.12.15 — conferidor (o aluno cola o arquivo e a página confere). Só variáveis do tema. */
 .confer{border:1px solid var(--line);border-radius:var(--r);background:var(--card);padding:clamp(14px,2.2vw,24px);max-width:900px}
 .cf-cab{display:flex;align-items:center;gap:10px;flex-wrap:wrap;padding-bottom:12px;border-bottom:1px solid var(--line)}
 .cf-arquivo{display:inline-flex;align-items:center;gap:8px;font:600 14px var(--mono);color:var(--txt);min-width:0;overflow-wrap:anywhere}

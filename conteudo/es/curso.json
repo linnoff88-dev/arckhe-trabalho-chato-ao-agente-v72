@@ -1,21 +1,21 @@
 {
   "id": "trabalho-chato-ao-agente-v72",
   "lang": "es",
-  "url": "https://inematds.github.io/trabalho-chato-ao-agente-v72/es/",
+  "url": "https://linnoff88-dev.github.io/arckhe-/es/",
   "nome": "Entrega el trabajo aburrido a un agente",
   "sub": "Una tarea a la vez, solo borradores, tú apruebas",
   "volta": {
-    "t": "INEMA.CLUB",
-    "href": "https://inema.club/"
+    "t": "ARCKHÉ AI",
+    "href": "https://ARCKHÉ AI/"
   },
   "lado_card": {
     "rot": "Idea central",
     "t": "El agente hace el borrador, tú lo apruebas",
     "texto": "Solo lectura, solo borradores, el inicio de sesión es tuyo y el dinero pasa por ti. Con estas cuatro reglas puedes delegar sin miedo.",
     "link": "Escribir la ficha del agente",
-    "href": "https://inematds.github.io/trabalho-chato-ao-agente-v72/es/aulas/ficha/"
+    "href": "https://linnoff88-dev.github.io/arckhe-/es/aulas/ficha/"
   },
-  "rodape": "INEMA.CLUB · contenido abierto y gratuito · formato INEMA Learning v7.2 · <a href=\"https://inema.club/\">inema.club</a> · <a href=\"https://www.inema.club/aprender-inteligencia-artificial/\">Guía: cómo aprender inteligencia artificial</a>",
+  "rodape": "ARCKHÉ AI · contenido abierto y gratuito · formato ARCKHÉ Learning v7.2 · <a href=\"https://ARCKHÉ AI/\">ARCKHÉ AI</a> · <a href=\"https://www.ARCKHÉ AI/aprender-inteligencia-artificial/\">Guía: cómo aprender inteligencia artificial</a>",
   "videos": {},
   "inicio": {
     "kicker": "Curso · 8 clases · en el chat o en la terminal",

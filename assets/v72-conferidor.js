@@ -1,4 +1,4 @@
-/* INEMA Learning 7.13.16 — conferidor: o aluno cola (ou carrega) o arquivo que escreveu e a página confere.
+/* ARCKHÉ Learning 7.13.16 — conferidor: o aluno cola (ou carrega) o arquivo que escreveu e a página confere.
    Mesmas regras e mensagens do conferir.py (opçêo de terminal). Regras: campos, planos, cada_plano, duracao, termos;
    7.12.15: video {min, max, proporcao?, largura_min?} — lê duraçêo e tamanho do arquivo escolhido (loadedmetadata).
    Tudo no navegador: nada é enviado. Rascunho guardado em localStorage "<data-curso>:conf:<id>:txt"; a última
@@ -129,7 +129,7 @@
     var n = planos.length || (D.regras || []).reduce(function (s, r) { return s + (r.tipo === "campos" ? r.campos.length : 0); }, 0);
     return { ok: true, msg: fmt(D.ok, { n: n, s: num(segs) }), faltas: [] };
   }
-  window.INEMAConferir = conferir;  // para testes (conferir-tela.cjs)
+  window.ARCKHÉConferir = conferir;  // para testes (conferir-tela.cjs)
 
   // 7.12.15: modo vídeo — mesmas regras e mensagens de conferir_video() do conferir.py
   var PROP = { "16:9": 16 / 9, "9:16": 9 / 16, "1:1": 1, "4:5": 4 / 5, "4:3": 4 / 3, "2.39:1": 2.39, "1.85:1": 1.85 };
@@ -152,7 +152,7 @@
     if (f.length) return { ok: false, msg: T.conf_falta, faltas: f };
     return { ok: true, msg: fmt(D.ok, { s: seg1(info.d), w: info.w, h: info.h, p: p }), faltas: [] };
   }
-  window.INEMAConferirVideo = conferirVideo;
+  window.ARCKHÉConferirVideo = conferirVideo;
   function sonda(url, pronto) {
     var v = document.createElement("video"), feito = false;
     function fim(x) { if (feito) return; feito = true; v.removeAttribute("src"); v.load(); pronto(x); }
