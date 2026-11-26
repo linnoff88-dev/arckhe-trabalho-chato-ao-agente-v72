@@ -5,7 +5,7 @@
   "titulo": "Do primeiro agente à pequena equipe em 30 dias",
   "titulo_curto": "Plano de 30 dias",
   "minutos": 14,
-  "lead": "O erro mais comum é montar cinco agentes no primeiro fim de semana e parar de conferir na terça. O caminho que funciona é lento no começo: uma tarefa, conferência de tudo, confiança, e só então a próxima. Em quatro semanas você chega a uma pequena equipe que trabalha enquanto você confere por amostra.",
+  "lead": "O erro mais comum é montar cinco agentes no primeiro fim de semana e parar de conferir na terça. O caminho que funciona é lento no começo: uma tarefa, conferência de tudo, confiança, e só entêo a próxima. Em quatro semanas você chega a uma pequena equipe que trabalha enquanto você confere por amostra.",
   "objetivo": "montar o plano de quatro semanas com conferência completa no começo, amostragem depois e uma tarefa nova por semana.",
   "competencias": [
     "planejar-adocao-de-agentes",
@@ -30,7 +30,7 @@
       "t": "O seu plano com datas para o calendário"
     }
   ],
-  "hero_alt": "Calendário de parede com quatro semanas e algumas casas marcadas, ao lado de uma mesa com um caderno aberto, à luz da manhã.",
+  "hero_alt": "Calendário de parede com quatro semanas e algumas casas marcadas, ao lado de uma mesa com um caderno aberto, à luz da manhê.",
   "secoes": [
     {
       "tipo": "mapa",
@@ -44,16 +44,16 @@
           "titulo": "Uma tarefa",
           "sub": "lista e ficha",
           "saida": "Primeiro agente com ficha e regras.",
-          "passo": "Ache a tarefa (aula 1), escreva a ficha (aula 2) e rode. Confira todos os resultados desta semana, sem exceção."
+          "passo": "Ache a tarefa (aula 1), escreva a ficha (aula 2) e rode. Confira todos os resultados desta semana, sem exceçêo."
         },
         {
           "aula": "leads",
           "icone": "portao",
           "quando": "Semana 2",
           "titulo": "Tarefa 2",
-          "sub": "com portão",
-          "saida": "Tarefa 1 na rotina e contatos com portão.",
-          "passo": "A tarefa 1 continua conferida inteira (numa tarefa semanal, as três primeiras rodadas são três semanas). Ponha o lembrete no calendário e acrescente a tarefa 2: contatos (aula 4), que roda várias vezes por semana."
+          "sub": "com portêo",
+          "saida": "Tarefa 1 na rotina e contatos com portêo.",
+          "passo": "A tarefa 1 continua conferida inteira (numa tarefa semanal, as três primeiras rodadas sêo três semanas). Ponha o lembrete no calendário e acrescente a tarefa 2: contatos (aula 4), que roda várias vezes por semana."
         },
         {
           "aula": "roteamento",
@@ -70,13 +70,13 @@
           "quando": "Semana 4",
           "titulo": "Equipe",
           "sub": "4 agentes",
-          "saida": "Pequena equipe e revisão semanal.",
+          "saida": "Pequena equipe e revisêo semanal.",
           "passo": "Tarefa 4: checklist de cliente novo (aula 6). Uma vez por semana, leia o diário, ajuste uma ficha e decida qual tarefa entra a seguir."
         }
       ],
       "resultado": {
         "titulo": "Ao fim dos 30 dias",
-        "texto": "Quatro tarefas chatas fora da sua mão, cada uma com ficha, portão e diário.",
+        "texto": "Quatro tarefas chatas fora da sua mêo, cada uma com ficha, portêo e diário.",
         "total": "4 semanas"
       },
       "legenda": "Errou? Aquela tarefa volta a ser conferida inteira até três rodadas seguidas baterem."
@@ -84,13 +84,13 @@
     {
       "tipo": "passos",
       "titulo": "Conferir tudo, depois por amostra",
-      "sub": "A prova de que funcionou é o diário, não a impressão. Clique em cada fase.",
+      "sub": "A prova de que funcionou é o diário, nêo a impressêo. Clique em cada fase.",
       "passos": [
         {
           "titulo": "Tudo",
           "sub": "3 primeiras rodadas",
           "texto": [
-            "Nas três primeiras rodadas de cada agente, confira o resultado inteiro: cada número, cada rascunho. Numa tarefa semanal são três semanas; numa diária, três dias.",
+            "Nas três primeiras rodadas de cada agente, confira o resultado inteiro: cada número, cada rascunho. Numa tarefa semanal sêo três semanas; numa diária, três dias.",
             "Cada coisa que você corrigir vira uma regra na ficha."
           ]
         },
@@ -98,8 +98,8 @@
           "titulo": "Amostra",
           "sub": "depois",
           "texto": [
-            "Três rodadas seguidas sem correção? Passe para a amostra: dois números do relatório, um rascunho em cada três, duas notas da tabela.",
-            "Portão não sai nunca: o que fala com cliente ou mexe com dinheiro continua sendo lido por você."
+            "Três rodadas seguidas sem correçêo? Passe para a amostra: dois números do relatório, um rascunho em cada três, duas notas da tabela.",
+            "Portêo nêo sai nunca: o que fala com cliente ou mexe com dinheiro continua sendo lido por você."
           ]
         },
         {
@@ -132,12 +132,12 @@
         {
           "rot": "Diário de conferência (modelo)",
           "icone": "arquivo",
-          "conteudo": "data | agente | modelo | o que conferi | bateu? | mudança na ficha | minutos poupados\n11/11 | relatório do site | leve | tudo (rodada 1) | sim | entrega ganhou o total por página | 50\n12/11 | contatos | leve | os 3 rascunhos | 1 corrigido | regra: não citar prazo | 30\n18/11 | relatório do site | leve | tudo (rodada 2) | sim | nenhuma | 55\n25/11 | relatório do site | leve | tudo (rodada 3) | sim | nenhuma | 55\n02/12 | relatório do site | leve | 2 números (amostra) | sim | nenhuma | 55"
+          "conteudo": "data | agente | modelo | o que conferi | bateu? | mudança na ficha | minutos poupados\n11/11 | relatório do site | leve | tudo (rodada 1) | sim | entrega ganhou o total por página | 50\n12/11 | contatos | leve | os 3 rascunhos | 1 corrigido | regra: nêo citar prazo | 30\n18/11 | relatório do site | leve | tudo (rodada 2) | sim | nenhuma | 55\n25/11 | relatório do site | leve | tudo (rodada 3) | sim | nenhuma | 55\n02/12 | relatório do site | leve | 2 números (amostra) | sim | nenhuma | 55"
         },
         {
-          "rot": "Revisão de sexta (cole no chat com o diário)",
+          "rot": "Revisêo de sexta (cole no chat com o diário)",
           "icone": "chat",
-          "conteudo": "Aqui está o meu diário de conferência da semana.\nMe diga, em no máximo 8 linhas:\n1. Quantos minutos os agentes pouparam no total (some a última coluna).\n2. Qual agente teve mais correções e qual regra eu deveria pôr na ficha dele.\n3. Qual agente já pode passar para conferência por amostra (três rodadas seguidas sem correção).\nNão invente números: use só o que está no diário."
+          "conteudo": "Aqui está o meu diário de conferência da semana.\nMe diga, em no máximo 8 linhas:\n1. Quantos minutos os agentes pouparam no total (some a última coluna).\n2. Qual agente teve mais correções e qual regra eu deveria pôr na ficha dele.\n3. Qual agente já pode passar para conferência por amostra (três rodadas seguidas sem correçêo).\nNêo invente números: use só o que está no diário."
         }
       ],
       "saida": {
@@ -149,7 +149,7 @@
           },
           {
             "rot": "Erros comuns",
-            "html": "<ul><li><b>Cinco agentes na primeira semana</b>: você não consegue conferir tudo e o primeiro erro passa.</li><li><b>Parar de conferir porque \"sempre deu certo\"</b>: amostra é conferir menos, não parar.</li><li><b>Sem diário</b>: depois de um mês você não sabe dizer se o agente poupa tempo ou só muda o trabalho de lugar.</li></ul>"
+            "html": "<ul><li><b>Cinco agentes na primeira semana</b>: você nêo consegue conferir tudo e o primeiro erro passa.</li><li><b>Parar de conferir porque \"sempre deu certo\"</b>: amostra é conferir menos, nêo parar.</li><li><b>Sem diário</b>: depois de um mês você nêo sabe dizer se o agente poupa tempo ou só muda o trabalho de lugar.</li></ul>"
           }
         ]
       }
@@ -225,9 +225,9 @@
         },
         {
           "id": "e3",
-          "titulo": "E3 · A revisão da primeira sexta",
+          "titulo": "E3 · A revisêo da primeira sexta",
           "min": "10 min",
-          "texto": "Na sexta da semana 1, cole o diário no chat com o pedido de revisão.",
+          "texto": "Na sexta da semana 1, cole o diário no chat com o pedido de revisêo.",
           "pronto": "você tem o total de minutos poupados da semana e uma regra nova numa ficha."
         }
       ]
@@ -240,13 +240,13 @@
         {
           "p": "Quando um agente pode passar de \"conferir tudo\" para \"conferir por amostra\"?",
           "opcoes": [
-            "Depois de três rodadas seguidas sem correção.",
+            "Depois de três rodadas seguidas sem correçêo.",
             "Logo na primeira semana, se o texto estiver bem escrito.",
             "Quando você estiver sem tempo.",
             "Nunca: sempre se confere tudo."
           ],
           "certa": 0,
-          "explica": "Três rodadas seguidas sem correção mostram que a ficha está firme. Texto bem escrito não prova número certo, e conferir tudo para sempre tira o ganho do agente.",
+          "explica": "Três rodadas seguidas sem correçêo mostram que a ficha está firme. Texto bem escrito nêo prova número certo, e conferir tudo para sempre tira o ganho do agente.",
           "ref": "passos",
           "cert": true
         },
@@ -255,7 +255,7 @@
           "opcoes": [
             "Ignorar: foi só um.",
             "Trocar todos os agentes para o modelo topo.",
-            "Corrigir o número à mão na hora e continuar conferindo só por amostra, como antes.",
+            "Corrigir o número à mêo na hora e continuar conferindo só por amostra, como antes.",
             "Aquela tarefa volta a ser conferida inteira e o erro vira regra na ficha."
           ],
           "certa": 3,
@@ -285,7 +285,7 @@
             "Para escolher o modelo leve."
           ],
           "certa": 2,
-          "explica": "Sem número, a sensação engana. A soma dos minutos poupados mostra se vale pôr a próxima tarefa ou ajustar as que já existem.",
+          "explica": "Sem número, a sensaçêo engana. A soma dos minutos poupados mostra se vale pôr a próxima tarefa ou ajustar as que já existem.",
           "ref": "codigo",
           "cert": true
         }

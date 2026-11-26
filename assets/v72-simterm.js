@@ -1,5 +1,5 @@
 /* 7.14.19: terminal simulado (tipo simterm, sec_simterm em gerar.py), vindo do curso do-chat-ao-agente-terminal-v72.
-   O aluno digita o comando de cada missão; o terminal responde como o de verdade responderia.
+   O aluno digita o comando de cada missêo; o terminal responde como o de verdade responderia.
    Nada roda de verdade: é um ensaio sem risco antes de fazer no seu computador. */
 (function () {
   function norm(s, win) {

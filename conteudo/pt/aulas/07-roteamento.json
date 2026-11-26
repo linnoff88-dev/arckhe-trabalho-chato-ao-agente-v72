@@ -5,7 +5,7 @@
   "titulo": "Modelo leve para a rotina, topo para o difícil",
   "titulo_curto": "Leve ou topo",
   "minutos": 15,
-  "lead": "Você não chama o sócio mais experiente para copiar planilha. Com modelos é igual: o leve é rápido e gasta menos do limite da sua assinatura, e dá conta da rotina; o topo pensa mais devagar e fica para o plano grande, o problema difícil e o que pode custar caro. A regra de roteamento escreve isso uma vez.",
+  "lead": "Você nêo chama o sócio mais experiente para copiar planilha. Com modelos é igual: o leve é rápido e gasta menos do limite da sua assinatura, e dá conta da rotina; o topo pensa mais devagar e fica para o plano grande, o problema difícil e o que pode custar caro. A regra de roteamento escreve isso uma vez.",
   "objetivo": "escrever a regra que decide qual modelo faz cada tarefa e classificar as suas tarefas em leve ou topo.",
   "competencias": [
     "escolher-modelo-por-tarefa",
@@ -30,7 +30,7 @@
       "t": "Escolher o modelo no chat e no terminal"
     }
   ],
-  "hero_alt": "Duas mesas lado a lado: um robô humanoide branco, menor, separa papéis simples em bandejas; um robô maior, metálico escuro, analisa com atenção um único documento sob a luminária.",
+  "hero_alt": "Duas mesas lado a lado: um robô humanoide branco, menor, separa papéis simples em bandejas; um robô maior, metálico escuro, analisa com atençêo um único documento sob a luminária.",
   "secoes": [
     {
       "tipo": "diagrama",
@@ -53,7 +53,7 @@
           "icone": "lupa",
           "titulo": "Pergunta",
           "sub": "é rotina?",
-          "detalhe": "Três perguntas: é um plano grande ou um sistema novo? Já falhou duas vezes no leve? É uma decisão que pode custar caro (pagar, negociar, contrato, cliente grande)? Um \"sim\" manda para o topo. Três \"não\", fica no leve. Ler e somar notas não é decisão: é rotina, fica no leve.",
+          "detalhe": "Três perguntas: é um plano grande ou um sistema novo? Já falhou duas vezes no leve? É uma decisêo que pode custar caro (pagar, negociar, contrato, cliente grande)? Um \"sim\" manda para o topo. Três \"nêo\", fica no leve. Ler e somar notas nêo é decisêo: é rotina, fica no leve.",
           "itens": [
             {
               "icone": "alvo",
@@ -66,7 +66,7 @@
           "titulo": "Leve",
           "sub": "rotina",
           "forte": true,
-          "detalhe": "Ler, resumir, copiar entre planilhas, relatório da semana, rascunho de e-mail, correção pequena num texto ou página. É a maior parte do trabalho chato.",
+          "detalhe": "Ler, resumir, copiar entre planilhas, relatório da semana, rascunho de e-mail, correçêo pequena num texto ou página. É a maior parte do trabalho chato.",
           "itens": [
             {
               "icone": "relogio",
@@ -78,7 +78,7 @@
           "icone": "cerebro",
           "titulo": "Topo",
           "sub": "difícil",
-          "detalhe": "Planejar um sistema novo, um problema que o leve errou duas vezes, decidir algo com dinheiro ou contrato (pagar, negociar, aceitar condição), proposta para cliente grande. Mesmo aqui, rascunho e portão continuam valendo.",
+          "detalhe": "Planejar um sistema novo, um problema que o leve errou duas vezes, decidir algo com dinheiro ou contrato (pagar, negociar, aceitar condiçêo), proposta para cliente grande. Mesmo aqui, rascunho e portêo continuam valendo.",
           "itens": [
             {
               "icone": "escudo",
@@ -111,7 +111,7 @@
           "sub": "o seletor",
           "texto": [
             "No ChatGPT, no Claude e no Gemini, o seletor de modelos fica no alto da conversa ou perto da caixa de texto.",
-            "A descrição de cada item diz qual é o rápido, para o dia a dia, e qual raciocina mais ou é o mais capaz: o primeiro é o seu leve, o segundo o seu topo. No Claude, o Sonnet é o do dia a dia e o Opus o mais capaz.",
+            "A descriçêo de cada item diz qual é o rápido, para o dia a dia, e qual raciocina mais ou é o mais capaz: o primeiro é o seu leve, o segundo o seu topo. No Claude, o Sonnet é o do dia a dia e o Opus o mais capaz.",
             "Para subir, troque o modelo no seletor. Muitas ferramentas deixam trocar na mesma conversa; uma conversa nova no mesmo Projeto começa limpa, só com a ficha."
           ]
         },
@@ -127,8 +127,8 @@
           "titulo": "No Claude Code",
           "sub": "/model e --model",
           "texto": [
-            "No Claude Code, <code>/model</code> troca o modelo da sessão e <code>--model</code> escolhe ao chamar: <code>sonnet</code> para a rotina, <code>opus</code> para o difícil.",
-            "Os apelidos apontam sempre para a versão mais nova de cada família."
+            "No Claude Code, <code>/model</code> troca o modelo da sessêo e <code>--model</code> escolhe ao chamar: <code>sonnet</code> para a rotina, <code>opus</code> para o difícil.",
+            "Os apelidos apontam sempre para a versêo mais nova de cada família."
           ]
         },
         {
@@ -149,7 +149,7 @@
         {
           "rot": "Regra de roteamento (cole nas instruções)",
           "icone": "arquivo",
-          "conteudo": "Regra de modelo:\nUse o modelo LEVE para a rotina:\n- ler painéis, planilhas e mensagens; copiar dados de um lugar para outro\n- relatórios, resumos e tabelas da semana\n- rascunhos de e-mail e respostas curtas\n- correções pequenas num texto, planilha ou página\n\nPasse para o modelo TOPO quando:\n- for um plano grande ou um sistema novo\n- o leve já errou a mesma tarefa duas vezes\n- for DECIDIR algo com dinheiro ou contrato (pagar, negociar, aceitar condição) ou proposta para cliente grande\n(ler e somar notas ou boletos é rotina: fica no leve)\n\nQuando a tarefa pedir o topo, me diga em uma linha: \"Sugiro o topo porque ...\" e espere eu trocar o modelo.\nNa dúvida, comece no leve e me avise se travar.\nRascunho e portão valem para os dois."
+          "conteudo": "Regra de modelo:\nUse o modelo LEVE para a rotina:\n- ler painéis, planilhas e mensagens; copiar dados de um lugar para outro\n- relatórios, resumos e tabelas da semana\n- rascunhos de e-mail e respostas curtas\n- correções pequenas num texto, planilha ou página\n\nPasse para o modelo TOPO quando:\n- for um plano grande ou um sistema novo\n- o leve já errou a mesma tarefa duas vezes\n- for DECIDIR algo com dinheiro ou contrato (pagar, negociar, aceitar condiçêo) ou proposta para cliente grande\n(ler e somar notas ou boletos é rotina: fica no leve)\n\nQuando a tarefa pedir o topo, me diga em uma linha: \"Sugiro o topo porque ...\" e espere eu trocar o modelo.\nNa dúvida, comece no leve e me avise se travar.\nRascunho e portêo valem para os dois."
         },
         {
           "rot": "Pedido · classificar as minhas tarefas",
@@ -166,19 +166,19 @@
         "selo": "simulacao",
         "abas": [
           {
-            "rot": "Exemplo de classificação",
-            "html": "<pre>1 | Relatório semanal do site | leve | ler e resumir\n2 | Contatos novos e rascunhos | leve | rotina, com portão\n3 | Notas e contas a pagar | leve | ler e somar; topo se o PDF não ler\n4 | Checklist de cliente novo | leve | passos fixos\n5 | Desenhar o novo processo de orçamentos | topo | sistema novo</pre>"
+            "rot": "Exemplo de classificaçêo",
+            "html": "<pre>1 | Relatório semanal do site | leve | ler e resumir\n2 | Contatos novos e rascunhos | leve | rotina, com portêo\n3 | Notas e contas a pagar | leve | ler e somar; topo se o PDF nêo ler\n4 | Checklist de cliente novo | leve | passos fixos\n5 | Desenhar o novo processo de orçamentos | topo | sistema novo</pre>"
           },
           {
             "rot": "Erros comuns",
-            "html": "<ul><li><b>Topo para tudo \"por garantia\"</b>: a rotina fica lenta e o limite acaba na quarta-feira.</li><li><b>Leve para o contrato</b>: economia errada. Decisão cara vai para o topo, e para você.</li><li><b>Subir sem avisar</b>: sem a linha \"porque…\", você não sabe se a regra está funcionando.</li></ul>"
+            "html": "<ul><li><b>Topo para tudo \"por garantia\"</b>: a rotina fica lenta e o limite acaba na quarta-feira.</li><li><b>Leve para o contrato</b>: economia errada. Decisêo cara vai para o topo, e para você.</li><li><b>Subir sem avisar</b>: sem a linha \"porque…\", você nêo sabe se a regra está funcionando.</li></ul>"
           }
         ]
       }
     },
     {
       "tipo": "conferidor",
-      "titulo": "Confira a sua classificação",
+      "titulo": "Confira a sua classificaçêo",
       "sub": "Cole a lista que o agente devolveu (ou a sua). A página confere se cada linha tem um nível só, leve ou topo. Se o nível está certo, quem julga é você com as três perguntas.",
       "arquivo": "modelos.txt",
       "rot": "Cole aqui a sua lista classificada (uma linha numerada por tarefa):",
@@ -204,7 +204,7 @@
         }
       ],
       "ok": "OK: {n} tarefas com o nível definido",
-      "exemplo": "1 | Relatório semanal do site | leve | ler e resumir\n2 | Contatos novos e rascunhos | leve | rotina, com portão\n3 | Notas e contas a pagar | leve | ler e somar\n4 | Checklist de cliente novo | leve | passos fixos\n5 | Desenhar o novo processo de orçamentos | topo | sistema novo",
+      "exemplo": "1 | Relatório semanal do site | leve | ler e resumir\n2 | Contatos novos e rascunhos | leve | rotina, com portêo\n3 | Notas e contas a pagar | leve | ler e somar\n4 | Checklist de cliente novo | leve | passos fixos\n5 | Desenhar o novo processo de orçamentos | topo | sistema novo",
       "exemplo_errado": "1 | Relatório semanal do site | leve\n2 | Contatos novos | depende\n3 | Notas e contas a pagar | leve ou topo\n4 | Cliente novo | topo | leve também serve"
     },
     {
@@ -224,13 +224,13 @@
           "titulo": "E2 · Classifique as suas tarefas",
           "min": "10 min",
           "texto": "Use o pedido \"classificar as minhas tarefas\" com a lista da aula 1. Confira no conferidor.",
-          "pronto": "o conferidor responde OK e cada tarefa que DECIDE dinheiro ou contrato está como topo ou como \"não delegar\"; ler e somar notas pode ficar no leve."
+          "pronto": "o conferidor responde OK e cada tarefa que DECIDE dinheiro ou contrato está como topo ou como \"nêo delegar\"; ler e somar notas pode ficar no leve."
         },
         {
           "id": "e3",
           "titulo": "E3 · Ache o seu leve e o seu topo",
           "min": "5 min",
-          "texto": "Abra o seletor de modelos da ferramenta que você usa (ou /model no terminal), leia a descrição de cada item e anote o nome do leve (o rápido, do dia a dia) e do topo (o que raciocina mais).",
+          "texto": "Abra o seletor de modelos da ferramenta que você usa (ou /model no terminal), leia a descriçêo de cada item e anote o nome do leve (o rápido, do dia a dia) e do topo (o que raciocina mais).",
           "pronto": "você tem os dois nomes anotados e rodou o relatório da semana no leve."
         }
       ]
@@ -238,7 +238,7 @@
     {
       "tipo": "quiz",
       "titulo": "Teste o que aprendeu",
-      "sub": "A explicação aparece depois da sua resposta.",
+      "sub": "A explicaçêo aparece depois da sua resposta.",
       "perguntas": [
         {
           "p": "Qual destas tarefas vai para o modelo topo?",
@@ -249,7 +249,7 @@
             "Desenhar do zero o processo de orçamentos da empresa."
           ],
           "certa": 3,
-          "explica": "Processo novo é plano grande: topo. As outras três são rotina de ler, copiar e escrever rascunho, o território do leve.",
+          "explica": "Processo novo é plano grande: topo. As outras três sêo rotina de ler, copiar e escrever rascunho, o território do leve.",
           "ref": "diagrama"
         },
         {
@@ -265,10 +265,10 @@
           "ref": "codigo"
         },
         {
-          "p": "Por que não usar o topo para tudo, já que ele é melhor?",
+          "p": "Por que nêo usar o topo para tudo, já que ele é melhor?",
           "opcoes": [
-            "Porque o topo não sabe fazer tarefa simples.",
-            "Porque o topo não aceita a ficha nas instruções.",
+            "Porque o topo nêo sabe fazer tarefa simples.",
+            "Porque o topo nêo aceita a ficha nas instruções.",
             "Porque ele costuma gastar mais do limite da assinatura e demorar mais, sem ganho na rotina.",
             "Porque o topo só funciona no terminal."
           ],
@@ -285,7 +285,7 @@
             "Contrata um plano de API à parte para o modelo topo."
           ],
           "certa": 1,
-          "explica": "O modelo se escolhe no seletor. Dentro do Projeto, a ficha e as regras continuam valendo, agora com o modelo que raciocina mais. Pedir \"use o topo\" sem trocar não muda o modelo, e API paga não é necessária.",
+          "explica": "O modelo se escolhe no seletor. Dentro do Projeto, a ficha e as regras continuam valendo, agora com o modelo que raciocina mais. Pedir \"use o topo\" sem trocar nêo muda o modelo, e API paga nêo é necessária.",
           "ref": "passos"
         }
       ]
@@ -300,7 +300,7 @@
         },
         {
           "t": "Topo no difícil",
-          "texto": "Plano grande, duas falhas no leve, decisão com dinheiro ou contrato."
+          "texto": "Plano grande, duas falhas no leve, decisêo com dinheiro ou contrato."
         },
         {
           "t": "Sobe avisando",
@@ -318,7 +318,7 @@
           "icone": "caneta"
         },
         {
-          "t": "Codex CLI (documentação oficial, em inglês)",
+          "t": "Codex CLI (documentaçêo oficial, em inglês)",
           "href": "https://developers.openai.com/codex/cli",
           "icone": "terminal"
         }

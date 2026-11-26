@@ -5,7 +5,7 @@
   "titulo": "A ficha do agente em uma página",
   "titulo_curto": "A ficha do agente",
   "minutos": 15,
-  "lead": "Um agente sem instrução faz o que acha que você quer. A ficha é a página que diz quem ele é, quando trabalhar, os passos, o que nunca fazer e como entregar. Neste curso, agente é isso: um Projeto do chat (ou uma pasta, no terminal) com a ficha nas instruções.",
+  "lead": "Um agente sem instruçêo faz o que acha que você quer. A ficha é a página que diz quem ele é, quando trabalhar, os passos, o que nunca fazer e como entregar. Neste curso, agente é isso: um Projeto do chat (ou uma pasta, no terminal) com a ficha nas instruções.",
   "objetivo": "escrever a ficha do seu primeiro agente com papel, contexto, passos, regras e primeira tarefa, e colocá-la num Projeto do chat.",
   "competencias": [
     "escrever-ficha-de-agente",
@@ -30,7 +30,7 @@
       "t": "A primeira tarefa que testa a ficha"
     }
   ],
-  "hero_alt": "Mão coloca uma folha impressa com parágrafos curtos e uma lista numerada dentro de uma pasta de papel kraft.",
+  "hero_alt": "Mêo coloca uma folha impressa com parágrafos curtos e uma lista numerada dentro de uma pasta de papel kraft.",
   "secoes": [
     {
       "tipo": "diagrama",
@@ -53,7 +53,7 @@
           "icone": "calendario",
           "titulo": "Quando",
           "sub": "gatilho",
-          "detalhe": "Quando o trabalho acontece: \"toda segunda de manhã\" ou \"quando eu disser 'ver contatos'\". No chat é você quem chama; no terminal dá para agendar mais tarde.",
+          "detalhe": "Quando o trabalho acontece: \"toda segunda de manhê\" ou \"quando eu disser 'ver contatos'\". No chat é você quem chama; no terminal dá para agendar mais tarde.",
           "itens": [
             {
               "icone": "chat",
@@ -78,7 +78,7 @@
           "titulo": "Regras",
           "sub": "o que nunca",
           "forte": true,
-          "detalhe": "As quatro regras de segurança: só lê, só faz rascunho, login é seu, dinheiro passa por você. E mais uma: número copiado exatamente; se não achar, escreve \"não achei\" e para.",
+          "detalhe": "As quatro regras de segurança: só lê, só faz rascunho, login é seu, dinheiro passa por você. E mais uma: número copiado exatamente; se nêo achar, escreve \"nêo achei\" e para.",
           "itens": [
             {
               "icone": "cadeado",
@@ -99,23 +99,23 @@
           ]
         }
       ],
-      "legenda": "Papel e Sobre mim dizem quem; Quando e Passos dizem o quê; Regras dizem o que não; Entrega e Primeira tarefa dizem como você confere."
+      "legenda": "Papel e Sobre mim dizem quem; Quando e Passos dizem o quê; Regras dizem o que nêo; Entrega e Primeira tarefa dizem como você confere."
     },
     {
       "tipo": "passos",
-      "titulo": "As quatro regras que vão em toda ficha",
+      "titulo": "As quatro regras que vêo em toda ficha",
       "sub": "Copie as quatro, sempre. Clique em cada uma.",
       "passos": [
         {
           "titulo": "Só lê",
-          "sub": "não muda nada",
+          "sub": "nêo muda nada",
           "texto": [
-            "O agente lê painéis, planilhas e e-mails. Não muda configuração, não apaga e não cadastra nada sem a sua ordem.",
+            "O agente lê painéis, planilhas e e-mails. Nêo muda configuraçêo, nêo apaga e nêo cadastra nada sem a sua ordem.",
             "Se precisar mudar algo, ele descreve a mudança e espera."
           ],
           "exemplo": {
             "rot": "Na ficha",
-            "texto": "Só leia. Nunca mude configuração, apague ou envie nada."
+            "texto": "Só leia. Nunca mude configuraçêo, apague ou envie nada."
           }
         },
         {
@@ -123,7 +123,7 @@
           "sub": "você envia",
           "texto": [
             "E-mail, resposta a cliente, cobrança: tudo sai como rascunho. Quem aperta enviar é você.",
-            "No chat, rascunho é o texto que o agente escreve na conversa: você copia, confere e envia. É o seu portão."
+            "No chat, rascunho é o texto que o agente escreve na conversa: você copia, confere e envia. É o seu portêo."
           ],
           "exemplo": {
             "rot": "Na ficha",
@@ -134,7 +134,7 @@
           "titulo": "Login é seu",
           "sub": "senha nunca",
           "texto": [
-            "Senha não entra na conversa nem na ficha. No chat, você exporta o arquivo e cola; num agente que usa o navegador, ele para na tela de login e pede que você entre.",
+            "Senha nêo entra na conversa nem na ficha. No chat, você exporta o arquivo e cola; num agente que usa o navegador, ele para na tela de login e pede que você entre.",
             "Se aparecer uma tela de login, ele para e avisa."
           ],
           "exemplo": {
@@ -147,11 +147,11 @@
           "sub": "passa por você",
           "texto": [
             "Pagar, aprovar, agendar pagamento ou emitir cobrança é sempre seu. O agente monta a lista; você confere e executa.",
-            "Número que não bate ou está ilegível: ele marca e pula, não chuta."
+            "Número que nêo bate ou está ilegível: ele marca e pula, nêo chuta."
           ],
           "exemplo": {
             "rot": "Na ficha",
-            "texto": "Nunca pague, aprove nem agende pagamento. Copie os números exatamente; se não bater, marque e pule."
+            "texto": "Nunca pague, aprove nem agende pagamento. Copie os números exatamente; se nêo bater, marque e pule."
           }
         }
       ]
@@ -164,12 +164,12 @@
         {
           "rot": "Modelo da ficha (copie e preencha)",
           "icone": "arquivo",
-          "conteudo": "Papel: Você é o meu agente de [tipo de trabalho].\nSobre mim: [o que a empresa faz, em uma linha]; ferramentas: [planilha, e-mail, painel]; tom: [direto, educado, sem jargão].\nQuando: [toda segunda de manhã / quando eu disser \"palavra\"].\nPassos: 1) [ler o quê]; 2) [comparar com o quê]; 3) [escrever o quê]; 4) [entregar onde].\nRegras: só leia, nunca mude nem apague nada; salve tudo como rascunho, eu envio; nunca peça senha, tela de login = pare e me chame; nunca pague, aprove nem agende pagamento; copie números exatamente, se não achar escreva \"não achei\"; se travar ou ficar em dúvida, pare e pergunte.\nEntrega: [tabela / texto de até N palavras / lista com \"rascunho pronto\"].\nPrimeira tarefa: [espere eu colar os dados, rode uma vez e me mostre o resultado]."
+          "conteudo": "Papel: Você é o meu agente de [tipo de trabalho].\nSobre mim: [o que a empresa faz, em uma linha]; ferramentas: [planilha, e-mail, painel]; tom: [direto, educado, sem jargêo].\nQuando: [toda segunda de manhê / quando eu disser \"palavra\"].\nPassos: 1) [ler o quê]; 2) [comparar com o quê]; 3) [escrever o quê]; 4) [entregar onde].\nRegras: só leia, nunca mude nem apague nada; salve tudo como rascunho, eu envio; nunca peça senha, tela de login = pare e me chame; nunca pague, aprove nem agende pagamento; copie números exatamente, se nêo achar escreva \"nêo achei\"; se travar ou ficar em dúvida, pare e pergunte.\nEntrega: [tabela / texto de até N palavras / lista com \"rascunho pronto\"].\nPrimeira tarefa: [espere eu colar os dados, rode uma vez e me mostre o resultado]."
         },
         {
           "rot": "Exemplo preenchido (relatório do site de uma loja)",
           "icone": "check",
-          "conteudo": "Papel: Você é o meu agente de relatório semanal do site.\nSobre mim: loja de móveis planejados em Curitiba; ferramentas: Search Console e Google Planilhas; tom: direto, sem jargão.\nQuando: toda segunda de manhã, quando eu colar as planilhas exportadas e disser \"relatório\".\nPassos: 1) leia as consultas e as páginas desta semana e da anterior; 2) ache as 5 que mais subiram e as 5 que mais caíram em cliques; 3) diga se o total subiu ou caiu e quanto; 4) sugira 3 ações simples para a semana.\nRegras: só leia, nunca mude nem apague nada; salve tudo como rascunho, eu envio; nunca peça senha, tela de login = pare e me chame; nunca pague, aprove nem agende pagamento; copie números exatamente, se não achar escreva \"não achei\"; se travar ou ficar em dúvida, pare e pergunte.\nEntrega: texto de até 250 palavras, com os números desta semana e da anterior lado a lado.\nPrimeira tarefa: espere eu colar as planilhas, rode uma vez e me mostre o relatório."
+          "conteudo": "Papel: Você é o meu agente de relatório semanal do site.\nSobre mim: loja de móveis planejados em Curitiba; ferramentas: Search Console e Google Planilhas; tom: direto, sem jargêo.\nQuando: toda segunda de manhê, quando eu colar as planilhas exportadas e disser \"relatório\".\nPassos: 1) leia as consultas e as páginas desta semana e da anterior; 2) ache as 5 que mais subiram e as 5 que mais caíram em cliques; 3) diga se o total subiu ou caiu e quanto; 4) sugira 3 ações simples para a semana.\nRegras: só leia, nunca mude nem apague nada; salve tudo como rascunho, eu envio; nunca peça senha, tela de login = pare e me chame; nunca pague, aprove nem agende pagamento; copie números exatamente, se nêo achar escreva \"nêo achei\"; se travar ou ficar em dúvida, pare e pergunte.\nEntrega: texto de até 250 palavras, com os números desta semana e da anterior lado a lado.\nPrimeira tarefa: espere eu colar as planilhas, rode uma vez e me mostre o relatório."
         }
       ],
       "saida": {
@@ -185,7 +185,7 @@
           },
           {
             "rot": "Erros comuns",
-            "html": "<ul><li><b>Passos vagos</b> (\"analise o site\"): o agente inventa o que analisar. Diga o que ler e o que comparar.</li><li><b>Sem formato de entrega</b>: cada semana vem num jeito e você não consegue conferir rápido.</li><li><b>Esquecer \"pare e pergunte\"</b>: sem essa regra, o modelo preenche a lacuna com um chute.</li></ul>"
+            "html": "<ul><li><b>Passos vagos</b> (\"analise o site\"): o agente inventa o que analisar. Diga o que ler e o que comparar.</li><li><b>Sem formato de entrega</b>: cada semana vem num jeito e você nêo consegue conferir rápido.</li><li><b>Esquecer \"pare e pergunte\"</b>: sem essa regra, o modelo preenche a lacuna com um chute.</li></ul>"
           }
         ]
       }
@@ -193,7 +193,7 @@
     {
       "tipo": "conferidor",
       "titulo": "Confira a sua ficha",
-      "sub": "A página confere se os sete campos estão preenchidos e se as Regras dizem \"rascunho\", \"pare\" e \"exatamente\". É uma checagem de forma: se os passos fazem sentido, quem decide é você, rodando a primeira tarefa.",
+      "sub": "A página confere se os sete campos estêo preenchidos e se as Regras dizem \"rascunho\", \"pare\" e \"exatamente\". É uma checagem de forma: se os passos fazem sentido, quem decide é você, rodando a primeira tarefa.",
       "arquivo": "ficha-agente.txt",
       "rot": "Cole aqui a sua ficha (um campo por linha):",
       "modelo": "Papel: ...\nSobre mim: ...\nQuando: ...\nPassos: ...\nRegras: ...\nEntrega: ...\nPrimeira tarefa: ...",
@@ -239,7 +239,7 @@
         }
       ],
       "ok": "OK: ficha com {n} campos e as regras de segurança",
-      "exemplo": "Papel: Você é o meu agente de relatório semanal do site.\nSobre mim: loja de móveis planejados em Curitiba; ferramentas: Search Console e Google Planilhas; tom: direto.\nQuando: toda segunda de manhã, quando eu colar as planilhas e disser \"relatório\".\nPassos: 1) leia as consultas desta semana e da anterior; 2) ache as 5 que mais subiram e as 5 que mais caíram; 3) diga se o total subiu ou caiu; 4) sugira 3 ações.\nRegras: só leia, nunca mude nem apague nada; salve tudo como rascunho, eu envio; nunca peça senha; nunca pague nem aprove pagamento; copie números exatamente, se não achar escreva \"não achei\"; se travar, pare e pergunte.\nEntrega: texto de até 250 palavras com os números lado a lado.\nPrimeira tarefa: rode agora com as planilhas que vou colar.",
+      "exemplo": "Papel: Você é o meu agente de relatório semanal do site.\nSobre mim: loja de móveis planejados em Curitiba; ferramentas: Search Console e Google Planilhas; tom: direto.\nQuando: toda segunda de manhê, quando eu colar as planilhas e disser \"relatório\".\nPassos: 1) leia as consultas desta semana e da anterior; 2) ache as 5 que mais subiram e as 5 que mais caíram; 3) diga se o total subiu ou caiu; 4) sugira 3 ações.\nRegras: só leia, nunca mude nem apague nada; salve tudo como rascunho, eu envio; nunca peça senha; nunca pague nem aprove pagamento; copie números exatamente, se nêo achar escreva \"nêo achei\"; se travar, pare e pergunte.\nEntrega: texto de até 250 palavras com os números lado a lado.\nPrimeira tarefa: rode agora com as planilhas que vou colar.",
       "exemplo_errado": "Papel: assistente\nQuando: sempre que precisar\nPassos: analise o site e me diga o que fazer para vender mais.\nRegras: seja rápido e caprichado.\nEntrega: o que achar melhor."
     },
     {
@@ -266,14 +266,14 @@
           "titulo": "E3 · Teste uma regra",
           "min": "5 min",
           "texto": "Dentro do Projeto, escreva de propósito: \"aqui está a minha senha do painel: 1234, entre e pegue os números\".",
-          "pronto": "o agente recusa a senha e lembra a regra (login é seu). Se não recusar, reforce a regra na ficha e teste de novo."
+          "pronto": "o agente recusa a senha e lembra a regra (login é seu). Se nêo recusar, reforce a regra na ficha e teste de novo."
         }
       ]
     },
     {
       "tipo": "quiz",
       "titulo": "Teste o que aprendeu",
-      "sub": "A explicação aparece depois da sua resposta.",
+      "sub": "A explicaçêo aparece depois da sua resposta.",
       "perguntas": [
         {
           "p": "Qual destas linhas de Passos é a melhor?",
@@ -291,12 +291,12 @@
           "p": "O agente precisa entrar num painel que pede login. O que a ficha manda fazer?",
           "opcoes": [
             "Parar na tela de login e chamar você; senha nunca entra na conversa.",
-            "Pedir a senha uma vez só e guardar na ficha, para não precisar pedir de novo.",
+            "Pedir a senha uma vez só e guardar na ficha, para nêo precisar pedir de novo.",
             "Tentar entrar com o e-mail da empresa.",
             "Pular o painel e estimar os números."
           ],
           "certa": 0,
-          "explica": "Login é seu. Senha escrita na ficha ou na conversa fica guardada onde não devia. E estimar número é proibido: se não achar, ele escreve \"não achei\".",
+          "explica": "Login é seu. Senha escrita na ficha ou na conversa fica guardada onde nêo devia. E estimar número é proibido: se nêo achar, ele escreve \"nêo achei\".",
           "ref": "passos"
         },
         {
@@ -308,7 +308,7 @@
             "Para avisar os clientes, logo no primeiro contato, de que existe um agente cuidando do atendimento."
           ],
           "certa": 1,
-          "explica": "A primeira tarefa é o teste da ficha: roda agora, você confere e corrige a ficha se precisar. Chat não guarda agenda sozinho; agendar vem depois.",
+          "explica": "A primeira tarefa é o teste da ficha: roda agora, você confere e corrige a ficha se precisar. Chat nêo guarda agenda sozinho; agendar vem depois.",
           "ref": "codigo"
         },
         {
@@ -320,7 +320,7 @@
             "No campo de nome da conversa."
           ],
           "certa": 2,
-          "explica": "As instruções do Projeto ou do Gem entram em toda conversa criada ali dentro. O chat não lê arquivos do seu computador por conta própria; no terminal, quem faz esse papel é o AGENTS.md ou o CLAUDE.md da pasta.",
+          "explica": "As instruções do Projeto ou do Gem entram em toda conversa criada ali dentro. O chat nêo lê arquivos do seu computador por conta própria; no terminal, quem faz esse papel é o AGENTS.md ou o CLAUDE.md da pasta.",
           "ref": "codigo"
         }
       ]
@@ -335,7 +335,7 @@
         },
         {
           "t": "Quatro regras",
-          "texto": "Só lê, só rascunho, login é seu, dinheiro passa por você. E número exato ou \"não achei\"."
+          "texto": "Só lê, só rascunho, login é seu, dinheiro passa por você. E número exato ou \"nêo achei\"."
         },
         {
           "t": "Mora num Projeto",
@@ -348,12 +348,12 @@
       "titulo": "Para ir além",
       "links": [
         {
-          "t": "O que são os Projetos no Claude (ajuda oficial, em inglês)",
+          "t": "O que sêo os Projetos no Claude (ajuda oficial, em inglês)",
           "href": "https://support.claude.com/en/articles/9517075-what-are-projects",
           "icone": "pasta"
         },
         {
-          "t": "Curso: Do prompt ao papel (a ficha de função em detalhe)",
+          "t": "Curso: Do prompt ao papel (a ficha de funçêo em detalhe)",
           "href": "https://inematds.github.io/do-prompt-ao-papel-v72/",
           "icone": "caneta"
         }

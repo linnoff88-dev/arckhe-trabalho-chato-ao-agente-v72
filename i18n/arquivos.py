@@ -1,4 +1,4 @@
-"""Depois do traduzir.py: troca o nome sugerido dos arquivos do conferidor por idioma (o tradutor não mexe em 'arquivo')."""
+"""Depois do traduzir.py: troca o nome sugerido dos arquivos do conferidor por idioma (o tradutor nêo mexe em 'arquivo')."""
 import json, pathlib
 R = pathlib.Path(__file__).resolve().parent.parent
 M = {"en": {"tarefas.txt": "tasks.txt", "ficha-agente.txt": "agent-sheet.txt", "relatorio.txt": "report.txt",

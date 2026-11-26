@@ -5,8 +5,8 @@
   "titulo": "O relatório da semana sem abrir o painel",
   "titulo_curto": "Relatório da semana",
   "minutos": 18,
-  "lead": "Toda segunda alguém olha o painel, copia números e escreve um resumo. É o trabalho chato ideal: só leitura, toda semana, conferido em dois minutos. Tem site? O painel é o Search Console, a ferramenta gratuita do Google que mostra como as pessoas acham o seu site. Não tem? Use a ficha dos números da semana. Você exporta, o agente lê e escreve.",
-  "objetivo": "transformar a exportação do Search Console (ou dos números da sua semana) num relatório de até 250 palavras com números conferidos.",
+  "lead": "Toda segunda alguém olha o painel, copia números e escreve um resumo. É o trabalho chato ideal: só leitura, toda semana, conferido em dois minutos. Tem site? O painel é o Search Console, a ferramenta gratuita do Google que mostra como as pessoas acham o seu site. Nêo tem? Use a ficha dos números da semana. Você exporta, o agente lê e escreve.",
+  "objetivo": "transformar a exportaçêo do Search Console (ou dos números da sua semana) num relatório de até 250 palavras com números conferidos.",
   "competencias": [
     "exportar-dados-do-painel",
     "gerar-relatorio-com-agente",
@@ -41,7 +41,7 @@
           "icone": "usuario",
           "titulo": "Exportar",
           "sub": "você",
-          "detalhe": "No Search Console, abra o relatório de Performance, escolha o período (últimos 7 dias, comparando com o período anterior) e clique em Exportar. Você baixa uma planilha com as abas de consultas e de páginas. Login e clique são seus.",
+          "detalhe": "No Search Console, abra o relatório de Performance, escolha o período (últimos 7 dias, comparando com o período anterior) e clique em Exportar. Você baixa uma planilha com as abas de consultas e de páginas. Login e clique sêo seus.",
           "itens": [
             {
               "icone": "baixar",
@@ -90,7 +90,7 @@
           "icone": "lupa",
           "titulo": "Conferir",
           "sub": "você",
-          "detalhe": "Pegue dois números do relatório e procure na planilha. Bateram, confie no resto. Não bateram, corrija a ficha. Nas três primeiras semanas confira sempre; depois, por amostra.",
+          "detalhe": "Pegue dois números do relatório e procure na planilha. Bateram, confie no resto. Nêo bateram, corrija a ficha. Nas três primeiras semanas confira sempre; depois, por amostra.",
           "itens": [
             {
               "icone": "check",
@@ -99,12 +99,12 @@
           ]
         }
       ],
-      "volta": "Número que não bate vira regra nova na ficha",
+      "volta": "Número que nêo bate vira regra nova na ficha",
       "legenda": "O mesmo caminho serve para qualquer painel que exporta planilha: vendas, agenda, atendimento."
     },
     {
       "tipo": "passos",
-      "titulo": "A exportação, passo a passo",
+      "titulo": "A exportaçêo, passo a passo",
       "sub": "No Search Console, com o seu login. Clique em cada passo.",
       "passos": [
         {
@@ -112,7 +112,7 @@
           "sub": "o relatório",
           "texto": [
             "Entre no Search Console com a sua conta, escolha o site e abra o relatório de Performance (resultados da pesquisa).",
-            "Ele mostra cliques, impressões, CTR (cliques divididos por impressões) e posição média."
+            "Ele mostra cliques, impressões, CTR (cliques divididos por impressões) e posiçêo média."
           ]
         },
         {
@@ -120,7 +120,7 @@
           "sub": "7 dias × 7 dias",
           "texto": [
             "No filtro de data, escolha comparar os últimos 7 dias com o período anterior.",
-            "Assim a tabela já vem com as duas semanas lado a lado e o agente não precisa adivinhar datas."
+            "Assim a tabela já vem com as duas semanas lado a lado e o agente nêo precisa adivinhar datas."
           ]
         },
         {
@@ -128,11 +128,11 @@
           "sub": "planilha",
           "texto": [
             "Clique em Exportar e escolha Google Planilhas, Excel ou CSV (uma planilha em texto simples).",
-            "O arquivo traz uma aba por dimensão (consultas, páginas, países…). Para o relatório bastam consultas e páginas. Os nomes das abas mudam com o idioma da sua conta."
+            "O arquivo traz uma aba por dimensêo (consultas, páginas, países…). Para o relatório bastam consultas e páginas. Os nomes das abas mudam com o idioma da sua conta."
           ],
           "exemplo": {
-            "rot": "Atenção",
-            "texto": "Quando o painel não tem o valor, ele mostra ~ ou -; na planilha exportada esses casos viram zero."
+            "rot": "Atençêo",
+            "texto": "Quando o painel nêo tem o valor, ele mostra ~ ou -; na planilha exportada esses casos viram zero."
           }
         },
         {
@@ -148,7 +148,7 @@
     {
       "tipo": "codigo",
       "titulo": "Os dados de exemplo e os pedidos",
-      "sub": "Sem Search Console? Use os dados de exemplo: são inventados, mas têm a forma de uma exportação real.",
+      "sub": "Sem Search Console? Use os dados de exemplo: sêo inventados, mas têm a forma de uma exportaçêo real.",
       "blocos": [
         {
           "rot": "Dados de exemplo (cole no Projeto depois da ficha)",
@@ -158,12 +158,12 @@
         {
           "rot": "No chat · o pedido da segunda-feira",
           "icone": "chat",
-          "conteudo": "relatório\n\nUse a ficha deste Projeto. Os dados estão acima (ou no arquivo anexo).\nAntes do texto, me mostre o total de cliques desta semana e da anterior, que eu confiro."
+          "conteudo": "relatório\n\nUse a ficha deste Projeto. Os dados estêo acima (ou no arquivo anexo).\nAntes do texto, me mostre o total de cliques desta semana e da anterior, que eu confiro."
         },
         {
-          "rot": "Variação · ficha dos números da semana (num Projeto novo, \"Números da semana\")",
+          "rot": "Variaçêo · ficha dos números da semana (num Projeto novo, \"Números da semana\")",
           "icone": "arquivo",
-          "conteudo": "Papel: Você é o meu agente dos números da semana.\nSobre mim: [o que a empresa faz]; eu colo os números de cada ferramenta toda sexta.\nQuando: quando eu colar os números e disser \"números\".\nPassos: 1) monte uma tabela: número, esta semana, semana anterior, variação em %; 2) escreva 3 tópicos curtos: a melhor notícia, a maior preocupação, uma pergunta para a equipe.\nRegras: só leia, nunca mude nem apague nada; salve tudo como rascunho, eu envio; nunca peça senha, tela de login = pare e me chame; nunca pague, aprove nem agende pagamento; copie os números exatamente; se um número faltar, escreva \"não achei\", nunca estime; se travar, pare e pergunte.\nEntrega: a tabela e os 3 tópicos, nada mais.\nPrimeira tarefa: rode agora com os números que vou colar."
+          "conteudo": "Papel: Você é o meu agente dos números da semana.\nSobre mim: [o que a empresa faz]; eu colo os números de cada ferramenta toda sexta.\nQuando: quando eu colar os números e disser \"números\".\nPassos: 1) monte uma tabela: número, esta semana, semana anterior, variaçêo em %; 2) escreva 3 tópicos curtos: a melhor notícia, a maior preocupaçêo, uma pergunta para a equipe.\nRegras: só leia, nunca mude nem apague nada; salve tudo como rascunho, eu envio; nunca peça senha, tela de login = pare e me chame; nunca pague, aprove nem agende pagamento; copie os números exatamente; se um número faltar, escreva \"nêo achei\", nunca estime; se travar, pare e pergunte.\nEntrega: a tabela e os 3 tópicos, nada mais.\nPrimeira tarefa: rode agora com os números que vou colar."
         },
         {
           "rot": "Terminal (opcional) · Codex com o modelo leve",
@@ -181,15 +181,15 @@
         "abas": [
           {
             "rot": "O que o relatório deve trazer",
-            "html": "<ul><li>Total de cliques: <b>199</b> nesta semana contra <b>193</b> na anterior (alta de 6).</li><li>Maior alta: \"armário planejado curitiba\", de 30 para 48.</li><li>Maior queda: \"cozinha planejada preço\", de 41 para 22.</li><li>Três ações simples, uma por linha.</li></ul><p>São as contas feitas à mão sobre os dados de exemplo. O texto do agente muda; os números não podem mudar.</p>"
+            "html": "<ul><li>Total de cliques: <b>199</b> nesta semana contra <b>193</b> na anterior (alta de 6).</li><li>Maior alta: \"armário planejado curitiba\", de 30 para 48.</li><li>Maior queda: \"cozinha planejada preço\", de 41 para 22.</li><li>Três ações simples, uma por linha.</li></ul><p>Sêo as contas feitas à mêo sobre os dados de exemplo. O texto do agente muda; os números nêo podem mudar.</p>"
           },
           {
             "rot": "Por que só leitura",
-            "html": "<p>O agente não precisa entrar no Search Console: ele recebe a planilha. Assim não há senha na conversa, nada é alterado no painel e o erro possível é um texto errado, que você pega na conferência.</p>"
+            "html": "<p>O agente nêo precisa entrar no Search Console: ele recebe a planilha. Assim nêo há senha na conversa, nada é alterado no painel e o erro possível é um texto errado, que você pega na conferência.</p>"
           },
           {
             "rot": "Erros comuns",
-            "html": "<ul><li><b>Anexar a planilha inteira de 1.000 linhas</b> no chat: o modelo pode ler só parte. Mande as abas e as linhas que importam.</li><li><b>Pedir \"análise completa do site para aparecer melhor no Google\" (o chamado SEO)</b>: isso é trabalho para o modelo topo e para você (aula 7). O relatório semanal é rotina.</li><li><b>Não conferir</b> nas primeiras semanas: é ali que você descobre que a ficha precisa de uma regra a mais.</li></ul>"
+            "html": "<ul><li><b>Anexar a planilha inteira de 1.000 linhas</b> no chat: o modelo pode ler só parte. Mande as abas e as linhas que importam.</li><li><b>Pedir \"análise completa do site para aparecer melhor no Google\" (o chamado SEO)</b>: isso é trabalho para o modelo topo e para você (aula 7). O relatório semanal é rotina.</li><li><b>Nêo conferir</b> nas primeiras semanas: é ali que você descobre que a ficha precisa de uma regra a mais.</li></ul>"
           }
         ]
       }
@@ -232,7 +232,7 @@
           ]
         }
       ],
-      "ok": "OK: os números certos estão no relatório",
+      "ok": "OK: os números certos estêo no relatório",
       "exemplo": "Semana de alta leve: 199 cliques contra 193 na anterior (+6, cerca de 3%).\nMaiores altas: armário planejado curitiba (30 → 48), guarda-roupa sob medida (9 → 17), home office planejado (4 → 9).\nMaiores quedas: cozinha planejada preço (41 → 22), closet pequeno planejado (13 → 6), painel de tv planejado (15 → 12).\nAções: 1) revisar a página de cozinhas; 2) mostrar preços de closet; 3) reforçar a página de armários.",
       "exemplo_errado": "Semana boa: cerca de 200 cliques, um pouco mais que antes.\nMaiores altas: armário planejado curitiba.\nMaiores quedas: algumas consultas de cozinha caíram.\nAções: continuar postando."
     },
@@ -267,7 +267,7 @@
     {
       "tipo": "quiz",
       "titulo": "Teste o que aprendeu",
-      "sub": "A explicação aparece depois da sua resposta.",
+      "sub": "A explicaçêo aparece depois da sua resposta.",
       "perguntas": [
         {
           "p": "No caminho pelo chat, quem entra no Search Console?",
@@ -278,7 +278,7 @@
             "O agente, com o login e a senha que você digitou uma vez na conversa."
           ],
           "certa": 1,
-          "explica": "No chat o agente não abre o seu painel. Você entra com o seu login, exporta e entrega a planilha; ele lê e escreve. Senha nunca vai para a ficha nem para a conversa.",
+          "explica": "No chat o agente nêo abre o seu painel. Você entra com o seu login, exporta e entrega a planilha; ele lê e escreve. Senha nunca vai para a ficha nem para a conversa.",
           "ref": "diagrama"
         },
         {
@@ -290,11 +290,11 @@
             "64 (a maior linha)"
           ],
           "certa": 1,
-          "explica": "48 + 22 + 64 + 17 + 12 + 9 + 6 + 21 = 199. A semana anterior soma 193. 64 é só a maior linha, não o total.",
+          "explica": "48 + 22 + 64 + 17 + 12 + 9 + 6 + 21 = 199. A semana anterior soma 193. 64 é só a maior linha, nêo o total.",
           "ref": "codigo"
         },
         {
-          "p": "O relatório saiu bem escrito, mas você não tem tempo de conferir. Nas primeiras semanas, o mínimo é:",
+          "p": "O relatório saiu bem escrito, mas você nêo tem tempo de conferir. Nas primeiras semanas, o mínimo é:",
           "opcoes": [
             "Confiar, porque o texto está claro.",
             "Pedir ao próprio agente que confira o relatório que ele mesmo escreveu.",
@@ -302,19 +302,19 @@
             "Esperar um mês e conferir tudo de uma vez."
           ],
           "certa": 2,
-          "explica": "Conferir por amostra leva dois minutos e mostra se a ficha funciona. Texto claro não prova conta certa, e o agente conferindo a si mesmo repete o mesmo erro.",
+          "explica": "Conferir por amostra leva dois minutos e mostra se a ficha funciona. Texto claro nêo prova conta certa, e o agente conferindo a si mesmo repete o mesmo erro.",
           "ref": "diagrama"
         },
         {
-          "p": "Um número da sua semana não aparece na planilha que você colou. O que a ficha manda o agente escrever?",
+          "p": "Um número da sua semana nêo aparece na planilha que você colou. O que a ficha manda o agente escrever?",
           "opcoes": [
             "Uma estimativa parecida com a da semana anterior.",
             "Zero.",
             "A média das últimas semanas.",
-            "\"Não achei\", sem estimar."
+            "\"Nêo achei\", sem estimar."
           ],
           "certa": 3,
-          "explica": "Estimativa com cara de número real é o erro mais caro: você decide em cima dela. \"Não achei\" mostra o buraco e você completa.",
+          "explica": "Estimativa com cara de número real é o erro mais caro: você decide em cima dela. \"Nêo achei\" mostra o buraco e você completa.",
           "ref": "codigo"
         }
       ]
@@ -325,7 +325,7 @@
       "itens": [
         {
           "t": "Você exporta",
-          "texto": "Login e clique no painel são seus. O agente recebe a planilha e só lê."
+          "texto": "Login e clique no painel sêo seus. O agente recebe a planilha e só lê."
         },
         {
           "t": "Formato fixo",
@@ -333,7 +333,7 @@
         },
         {
           "t": "Dois números",
-          "texto": "Confira dois números na planilha. Bateu, confie; não bateu, a ficha ganha uma regra."
+          "texto": "Confira dois números na planilha. Bateu, confie; nêo bateu, a ficha ganha uma regra."
         }
       ]
     },
@@ -347,12 +347,12 @@
           "icone": "grafico"
         },
         {
-          "t": "Codex CLI (documentação oficial, em inglês)",
+          "t": "Codex CLI (documentaçêo oficial, em inglês)",
           "href": "https://developers.openai.com/codex/cli",
           "icone": "terminal"
         },
         {
-          "t": "Claude Code (documentação oficial, em inglês)",
+          "t": "Claude Code (documentaçêo oficial, em inglês)",
           "href": "https://docs.claude.com/en/docs/claude-code/overview",
           "icone": "terminal"
         }

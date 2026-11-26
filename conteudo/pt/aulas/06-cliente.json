@@ -5,7 +5,7 @@
   "titulo": "Cliente novo: o checklist que para quando falha",
   "titulo_curto": "Cliente novo",
   "minutos": 15,
-  "lead": "Fechou um cliente: agora é atualizar o cadastro, criar a pasta, montar o cronograma, preparar a primeira cobrança e escrever as boas-vindas. São os mesmos cinco passos toda vez, e esquecer um custa caro. O agente percorre o checklist em ordem, não cria nada duas vezes e para no passo que falhar.",
+  "lead": "Fechou um cliente: agora é atualizar o cadastro, criar a pasta, montar o cronograma, preparar a primeira cobrança e escrever as boas-vindas. Sêo os mesmos cinco passos toda vez, e esquecer um custa caro. O agente percorre o checklist em ordem, nêo cria nada duas vezes e para no passo que falhar.",
   "objetivo": "escrever o checklist de cliente novo que o agente percorre em ordem, parando no passo que falha sem duplicar nada.",
   "competencias": [
     "escrever-checklist-de-processo",
@@ -30,7 +30,7 @@
       "t": "Retomar sem refazer o que já foi feito"
     }
   ],
-  "hero_alt": "Prancheta com uma lista de verificação de cinco itens, três marcados, sobre uma mesa de reunião; ao fundo, desfocado, um aperto de mãos.",
+  "hero_alt": "Prancheta com uma lista de verificaçêo de cinco itens, três marcados, sobre uma mesa de reuniêo; ao fundo, desfocado, um aperto de mêos.",
   "secoes": [
     {
       "tipo": "diagrama",
@@ -41,11 +41,11 @@
           "icone": "check",
           "titulo": "Cadastro",
           "sub": "ganho",
-          "detalhe": "Na planilha ou no sistema de clientes: situação \"ganho\" (negócio fechado) e data de início. Os dados do cliente vêm da proposta assinada ou da conversa que você colar.",
+          "detalhe": "Na planilha ou no sistema de clientes: situaçêo \"ganho\" (negócio fechado) e data de início. Os dados do cliente vêm da proposta assinada ou da conversa que você colar.",
           "itens": [
             {
               "icone": "lista",
-              "t": "situação + data"
+              "t": "situaçêo + data"
             }
           ]
         },
@@ -53,7 +53,7 @@
           "icone": "pasta",
           "titulo": "Pasta",
           "sub": "do modelo",
-          "detalhe": "Uma pasta com o nome do cliente, copiada da sua pasta-modelo. Se já existir uma com esse nome, o agente não cria outra: para e avisa.",
+          "detalhe": "Uma pasta com o nome do cliente, copiada da sua pasta-modelo. Se já existir uma com esse nome, o agente nêo cria outra: para e avisa.",
           "itens": [
             {
               "icone": "x",
@@ -127,11 +127,11 @@
         "inicio": "5 passos em \"a fazer\". Clique em \"Rodar o checklist\".",
         "rodando": "Um passo por vez, na ordem: de \"a fazer\" para \"fazendo\" e depois \"feito\" ou \"parou\".",
         "parou": "Interrompido no meio. O passo que estava em andamento voltou para \"a fazer\". Rode de novo para ver a retomada.",
-        "retoma": "Retomada: o que já estava feito não foi refeito. Nada de cadastro nem pasta em dobro.",
+        "retoma": "Retomada: o que já estava feito nêo foi refeito. Nada de cadastro nem pasta em dobro.",
         "fim": "Checklist completo: tudo em \"feito\".",
-        "fimfalha": "Fim da rodada. Um passo parou com o motivo (\"já existe uma pasta com esse nome\"): o agente não criou outra e chamou você."
+        "fimfalha": "Fim da rodada. Um passo parou com o motivo (\"já existe uma pasta com esse nome\"): o agente nêo criou outra e chamou você."
       },
-      "legenda": "Simulação ilustrativa no navegador: nada é criado de verdade. A falha é proposital, para mostrar o \"para e avisa\"."
+      "legenda": "Simulaçêo ilustrativa no navegador: nada é criado de verdade. A falha é proposital, para mostrar o \"para e avisa\"."
     },
     {
       "tipo": "codigo",
@@ -141,12 +141,12 @@
         {
           "rot": "Ficha · agente de cliente novo",
           "icone": "arquivo",
-          "conteudo": "Papel: Você é o meu agente de cliente novo.\nSobre mim: [o que a empresa faz]; modelo de pasta: [nome]; modelo de cronograma: [nome]; modelo de e-mail de boas-vindas: [texto ou nome]; clientes e pastas que já existem: [cole a lista].\nQuando: quando eu disser \"cliente novo: [nome]\" e colar a proposta ou os dados.\nPassos: 1) cadastro: situação \"ganho\" (negócio fechado) e data de início; 2) pasta com o nome do cliente a partir do modelo; 3) cronograma a partir do modelo, com datas desde o início; 4) primeira cobrança como rascunho, com o valor da primeira parcela da proposta; 5) e-mail de boas-vindas como rascunho, com os links da pasta e do cronograma.\nRegras: nunca pague, aprove nem agende pagamento; nunca peça senha, tela de login = pare e me chame; faça os passos em ordem e marque cada um como feito; se um cliente, pasta ou cobrança com esse nome já existir, não crie outro: pare e me diga qual passo e o que viu; se um passo falhar, pare ali; cobrança e e-mail só como rascunho, eu emito e envio; copie nomes e valores exatamente; se faltar um dado, pare e pergunte.\nEntrega: a lista dos 5 passos com feito / parou e o motivo, os links ou nomes criados, o valor da cobrança e \"e-mail em rascunho\".\nPrimeira tarefa: repita o checklist com as suas palavras e espere eu dizer \"cliente novo\"."
+          "conteudo": "Papel: Você é o meu agente de cliente novo.\nSobre mim: [o que a empresa faz]; modelo de pasta: [nome]; modelo de cronograma: [nome]; modelo de e-mail de boas-vindas: [texto ou nome]; clientes e pastas que já existem: [cole a lista].\nQuando: quando eu disser \"cliente novo: [nome]\" e colar a proposta ou os dados.\nPassos: 1) cadastro: situaçêo \"ganho\" (negócio fechado) e data de início; 2) pasta com o nome do cliente a partir do modelo; 3) cronograma a partir do modelo, com datas desde o início; 4) primeira cobrança como rascunho, com o valor da primeira parcela da proposta; 5) e-mail de boas-vindas como rascunho, com os links da pasta e do cronograma.\nRegras: nunca pague, aprove nem agende pagamento; nunca peça senha, tela de login = pare e me chame; faça os passos em ordem e marque cada um como feito; se um cliente, pasta ou cobrança com esse nome já existir, nêo crie outro: pare e me diga qual passo e o que viu; se um passo falhar, pare ali; cobrança e e-mail só como rascunho, eu emito e envio; copie nomes e valores exatamente; se faltar um dado, pare e pergunte.\nEntrega: a lista dos 5 passos com feito / parou e o motivo, os links ou nomes criados, o valor da cobrança e \"e-mail em rascunho\".\nPrimeira tarefa: repita o checklist com as suas palavras e espere eu dizer \"cliente novo\"."
         },
         {
           "rot": "No chat · o pedido",
           "icone": "chat",
-          "conteudo": "cliente novo: Padaria Trigo Bom\n\nClientes e pastas que já existem: Marcenaria Lopes, Clínica Vida.\nDados da proposta: contato Marta Reis (marta@exemplo.com), cozinha industrial planejada, início em 10/11, valor total 18.000,00 em 3 parcelas, primeira na assinatura.\nNo chat você não cria a pasta nem o cadastro: me devolva o texto pronto de cada passo (nome da pasta, cronograma em tabela, rascunho da cobrança, rascunho do e-mail) e eu faço os cliques, marcando feito."
+          "conteudo": "cliente novo: Padaria Trigo Bom\n\nClientes e pastas que já existem: Marcenaria Lopes, Clínica Vida.\nDados da proposta: contato Marta Reis (marta@exemplo.com), cozinha industrial planejada, início em 10/11, valor total 18.000,00 em 3 parcelas, primeira na assinatura.\nNo chat você nêo cria a pasta nem o cadastro: me devolva o texto pronto de cada passo (nome da pasta, cronograma em tabela, rascunho da cobrança, rascunho do e-mail) e eu faço os cliques, marcando feito."
         },
         {
           "rot": "Terminal (opcional) · pastas reais no seu computador",
@@ -159,7 +159,7 @@
         "abas": [
           {
             "rot": "Chat × terminal",
-            "html": "<p><b>No chat</b>, o agente prepara o texto de cada passo e você faz os cliques: é o checklist com a parte chata (escrever, calcular datas, montar o e-mail) resolvida. <b>No terminal</b>, com <code>-s workspace-write</code>, o Codex pode copiar a pasta-modelo dentro da pasta onde você está; fora dela, não. Cadastro em sistema online e cobrança continuam com você.</p>"
+            "html": "<p><b>No chat</b>, o agente prepara o texto de cada passo e você faz os cliques: é o checklist com a parte chata (escrever, calcular datas, montar o e-mail) resolvida. <b>No terminal</b>, com <code>-s workspace-write</code>, o Codex pode copiar a pasta-modelo dentro da pasta onde você está; fora dela, nêo. Cadastro em sistema online e cobrança continuam com você.</p>"
           },
           {
             "rot": "Como conferir",
@@ -203,18 +203,18 @@
     {
       "tipo": "quiz",
       "titulo": "Teste o que aprendeu",
-      "sub": "A explicação aparece depois da sua resposta.",
+      "sub": "A explicaçêo aparece depois da sua resposta.",
       "perguntas": [
         {
           "p": "No passo 2, já existe uma pasta \"Padaria Trigo Bom\". O que o agente faz?",
           "opcoes": [
-            "Cria \"Padaria Trigo Bom (2)\" para não perder tempo.",
+            "Cria \"Padaria Trigo Bom (2)\" para nêo perder tempo.",
             "Apaga a antiga e cria uma nova.",
             "Pula a pasta e segue para o cronograma.",
             "Para no passo 2 e diz o que viu."
           ],
           "certa": 3,
-          "explica": "Pasta existente pode ser cliente repetido ou um erro seu. O agente não decide: para e avisa. Criar outra duplica; apagar é risco alto; pular deixa o e-mail com link para nada.",
+          "explica": "Pasta existente pode ser cliente repetido ou um erro seu. O agente nêo decide: para e avisa. Criar outra duplica; apagar é risco alto; pular deixa o e-mail com link para nada.",
           "ref": "simfila"
         },
         {
@@ -238,7 +238,7 @@
             "Ninguém: no chat esse passo some."
           ],
           "certa": 0,
-          "explica": "O chat escreve, não clica no seu Drive. Ele tira a parte chata (escrever e calcular) e você executa, marcando feito. Senha nunca.",
+          "explica": "O chat escreve, nêo clica no seu Drive. Ele tira a parte chata (escrever e calcular) e você executa, marcando feito. Senha nunca.",
           "ref": "codigo"
         }
       ]
@@ -253,7 +253,7 @@
         },
         {
           "t": "Falhou, para",
-          "texto": "Já existe ou deu erro: o agente para, diz qual passo e o que viu, e não improvisa."
+          "texto": "Já existe ou deu erro: o agente para, diz qual passo e o que viu, e nêo improvisa."
         },
         {
           "t": "Retoma sem refazer",

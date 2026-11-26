@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Portão de qualidade do curso v7.2.
+"""Portêo de qualidade do curso v7.2.
 
     python3 validar.py            # estrutura de cada aula
     python3 validar.py --links    # também confere os links externos (HTTP 200)
@@ -29,7 +29,7 @@ def confere_conversas(h):
         except ValueError as e:
             out.append(f"JSON inválido ({e})"); continue
         F, ini = d.get("falas") or {}, d.get("inicio")
-        if ini not in F: out.append(f"início '{ini}' não existe"); continue
+        if ini not in F: out.append(f"início '{ini}' nêo existe"); continue
         for fid, f in F.items():
             if f.get("fim"):
                 if not str(f.get("texto", "")).strip(): out.append(f"fim '{fid}' sem texto")
@@ -38,9 +38,9 @@ def confere_conversas(h):
             ops = f.get("opcoes") or []
             if not 2 <= len(ops) <= 4: out.append(f"fala '{fid}' com {len(ops)} opções (precisa 2–4)")
             for o in ops:
-                if o.get("vai") not in F: out.append(f"fala '{fid}': opção vai para '{o.get('vai')}', que não existe")
-                if not str(o.get("t", "")).strip() or not str(o.get("comenta", "")).strip(): out.append(f"fala '{fid}': opção sem 't' ou 'comenta'")
-                if not isinstance(o.get("nota"), int): out.append(f"fala '{fid}': opção sem 'nota' inteira")
+                if o.get("vai") not in F: out.append(f"fala '{fid}': opçêo vai para '{o.get('vai')}', que nêo existe")
+                if not str(o.get("t", "")).strip() or not str(o.get("comenta", "")).strip(): out.append(f"fala '{fid}': opçêo sem 't' ou 'comenta'")
+                if not isinstance(o.get("nota"), int): out.append(f"fala '{fid}': opçêo sem 'nota' inteira")
         if out: continue
         vistos, pilha = set(), set()
         def anda(fid):
@@ -63,12 +63,12 @@ for p in aulas:
     nos = len(re.findall(r'class="[^"]*\bdg-no\b', h))
     if not nos: erros.append(f"{nome}: sem diagrama")
     elif nos < 3: erros.append(f"{nome}: diagrama com menos de 3 blocos")
-    if 'class="copiar"' not in h: erros.append(f"{nome}: sem botão copiar")
+    if 'class="copiar"' not in h: erros.append(f"{nome}: sem botêo copiar")
     if 'class="q-op"' not in h or "<template class=\"ok\">" not in h: erros.append(f"{nome}: sem quiz com resposta oculta")
     if not re.search(r'data-competencias="[^"]+"', h): erros.append(f"{nome}: sem data-competencias")
     texto = re.sub(r"<(pre|script|template)[^>]*>.*?</\1>", "", h, flags=re.S)
     for ruim in ("[Nome", "[Resultado", "TODO", "lorem", "{a}", "undefined"):
-        # TODO só como palavra inteira: "METODO.md" não é sobra (7.5.5)
+        # TODO só como palavra inteira: "METODO.md" nêo é sobra (7.5.5)
         achou = re.search(r"\bTODO\b", texto) if ruim == "TODO" else ruim in texto
         if achou: erros.append(f"{nome}: sobra '{ruim}'")
     # placeholder tipo <o gatilho> fora de bloco de código vira tag e some na tela (7.5.2)
@@ -98,7 +98,7 @@ for aj in sorted((RAIZ / "conteudo" / args.lang / "aulas").glob("*.json")):
             erros.append(f"{aj.name}: '<{m.group(1)}…>' no texto vira elemento HTML de verdade; escreva <code>&lt;{m.group(1)}&gt;</code>")
 if not (base / "index.html").exists(): erros.append("index.html ausente")
 
-# viés do teste (7.7.9): a certa sempre na mesma posição, ou sempre a mais longa, deixa o aluno acertar sem ler
+# viés do teste (7.7.9): a certa sempre na mesma posiçêo, ou sempre a mais longa, deixa o aluno acertar sem ler
 qs = []
 for j in sorted((RAIZ / "conteudo" / args.lang / "aulas").glob("*.json")):
     for s in json.loads(j.read_text()).get("secoes", []):
@@ -107,12 +107,12 @@ if len(qs) >= 8:
     pos = [q["certa"] for q in qs]
     topo = max(set(pos), key=pos.count)
     if pos.count(topo) / len(qs) > 0.5:
-        erros.append(f"teste: a certa é a opção {topo + 1} em {pos.count(topo)} de {len(qs)} perguntas; varie a posição")
+        erros.append(f"teste: a certa é a opçêo {topo + 1} em {pos.count(topo)} de {len(qs)} perguntas; varie a posiçêo")
     longa = sum(1 for q in qs if len(q["opcoes"][q["certa"]]) > max(len(o) for i, o in enumerate(q["opcoes"]) if i != q["certa"]))
     if longa / len(qs) > 0.5:
-        erros.append(f"teste: a certa é a opção mais longa em {longa} de {len(qs)} perguntas; deixe as erradas do mesmo tamanho")
+        erros.append(f"teste: a certa é a opçêo mais longa em {longa} de {len(qs)} perguntas; deixe as erradas do mesmo tamanho")
 
-# 7.9.12: conferidor — o exemplo que passa tem de passar e o exemplo com erro tem de falhar, pelas regras da seção
+# 7.9.12: conferidor — o exemplo que passa tem de passar e o exemplo com erro tem de falhar, pelas regras da seçêo
 # (mesmo motor do assets/v72-conferidor.js, em conferir.py); o "ok" precisa começar igual ao que a página mostra
 _confs = [(j.stem, s) for j in sorted((RAIZ / "conteudo" / args.lang / "aulas").glob("*.json"))
           for s in json.loads(j.read_text()).get("secoes", []) if s.get("tipo") == "conferidor"]
@@ -147,7 +147,7 @@ if _confs:
             if ok2: erros.append(f"{nome}: conferidor — o exemplo com erro passou")
             if _cf.conferir("", s, _ui, _lg)[0]: erros.append(f"{nome}: conferidor aceita texto vazio")
 
-# a capa da página inicial e a foto de cada aula são obrigatórias (o gerador usa sem conferir)
+# a capa da página inicial e a foto de cada aula sêo obrigatórias (o gerador usa sem conferir)
 for img in ["assets/img/hero/inicio.jpg", *[f"assets/img/hero/{p.parent.name}.jpg" for p in aulas]]:
     if not (RAIZ / img).exists(): erros.append(f"imagem ausente: {img}")
 if not (RAIZ / "assets/img/capa.jpg").exists(): erros.append("imagem ausente: assets/img/capa.jpg (og:image)")

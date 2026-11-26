@@ -30,12 +30,12 @@
       "t": "Separar o spam com o motivo"
     }
   ],
-  "hero_alt": "Mulher dona de um pequeno estúdio lê mensagens no celular com atenção, o dedo parado acima da tela antes de responder.",
+  "hero_alt": "Mulher dona de um pequeno estúdio lê mensagens no celular com atençêo, o dedo parado acima da tela antes de responder.",
   "secoes": [
     {
       "tipo": "diagrama",
       "titulo": "O caminho de um contato novo",
-      "sub": "Clique em cada etapa. O portão é onde você entra.",
+      "sub": "Clique em cada etapa. O portêo é onde você entra.",
       "nos": [
         {
           "icone": "chat",
@@ -53,7 +53,7 @@
           "icone": "lista",
           "titulo": "Registra",
           "sub": "planilha",
-          "detalhe": "Para cada contato: nome, e-mail, empresa, o que pediu, data e situação \"novo\". Você copia as linhas que ele devolve e cola na sua planilha. Se o nome já está lá, ele marca \"atualizar\" em vez de criar outra linha. Spam vai para uma lista separada, com o motivo.",
+          "detalhe": "Para cada contato: nome, e-mail, empresa, o que pediu, data e situaçêo \"novo\". Você copia as linhas que ele devolve e cola na sua planilha. Se o nome já está lá, ele marca \"atualizar\" em vez de criar outra linha. Spam vai para uma lista separada, com o motivo.",
           "itens": [
             {
               "icone": "check",
@@ -65,17 +65,17 @@
           "icone": "caneta",
           "titulo": "Rascunho",
           "sub": "até 120 palavras",
-          "detalhe": "Uma resposta curta e pessoal: agradece pelo nome, responde o pedido em uma ou duas frases e oferece o seu link de agenda. Nada de preço, prazo ou desconto que você não escreveu na ficha.",
+          "detalhe": "Uma resposta curta e pessoal: agradece pelo nome, responde o pedido em uma ou duas frases e oferece o seu link de agenda. Nada de preço, prazo ou desconto que você nêo escreveu na ficha.",
           "itens": [
             {
               "icone": "arquivo",
-              "t": "salvo, não enviado"
+              "t": "salvo, nêo enviado"
             }
           ]
         },
         {
           "icone": "portao",
-          "titulo": "Portão",
+          "titulo": "Portêo",
           "sub": "você lê",
           "forte": true,
           "detalhe": "O agente para aqui. Você lê cada rascunho: aprova, corrige ou descarta. Esse é o único ponto em que algo pode sair com o seu nome.",
@@ -94,21 +94,21 @@
           "itens": [
             {
               "icone": "check",
-              "t": "o seu nome, a sua decisão"
+              "t": "o seu nome, a sua decisêo"
             }
           ]
         }
       ],
-      "legenda": "O agente faz o chato (ler, anotar, escrever); o que fala com o cliente passa pelo portão."
+      "legenda": "O agente faz o chato (ler, anotar, escrever); o que fala com o cliente passa pelo portêo."
     },
     {
       "tipo": "simportao",
-      "titulo": "Simule o portão",
-      "sub": "Rode o agente, leia o rascunho que parou no portão e decida.",
+      "titulo": "Simule o portêo",
+      "sub": "Rode o agente, leia o rascunho que parou no portêo e decida.",
       "arquivo": "lead-1.txt",
       "fases": [
         "Rascunhos",
-        "Portão",
+        "Portêo",
         "Envio",
         "Planilha"
       ],
@@ -117,34 +117,34 @@
       "rot": {
         "rodar": "Rodar o agente",
         "aprovar": "Aprovar o rascunho",
-        "reprovar": "Reprovar com correção",
-        "sempor": "Rodar sem portão",
+        "reprovar": "Reprovar com correçêo",
+        "sempor": "Rodar sem portêo",
         "zerar": "Recomeçar"
       },
       "msg": {
         "inicio": "Três contatos novos colados no Projeto. Clique em \"Rodar o agente\".",
-        "portao": "O agente registrou os contatos, escreveu os rascunhos e PAROU no portão. Leia o rascunho abaixo antes de decidir.",
-        "reprovado": "Você reprovou com a correção \"sem prazo nem desconto que eu não prometi\". O agente reescreveu e parou de novo no portão.",
-        "aprovado_ruim": "Aprovado sem ler direito: a cliente recebeu um prazo e um desconto que você nunca ofereceu. Era aqui que o portão servia.",
-        "aprovado_bom": "Aprovado depois da correção: você enviou a resposta certa e a planilha ficou com o contato registrado.",
-        "sem_portao": "Sem portão, o agente enviou sozinho. A promessa de 10 dias e 20% chegou à cliente antes de você ver."
+        "portao": "O agente registrou os contatos, escreveu os rascunhos e PAROU no portêo. Leia o rascunho abaixo antes de decidir.",
+        "reprovado": "Você reprovou com a correçêo \"sem prazo nem desconto que eu nêo prometi\". O agente reescreveu e parou de novo no portêo.",
+        "aprovado_ruim": "Aprovado sem ler direito: a cliente recebeu um prazo e um desconto que você nunca ofereceu. Era aqui que o portêo servia.",
+        "aprovado_bom": "Aprovado depois da correçêo: você enviou a resposta certa e a planilha ficou com o contato registrado.",
+        "sem_portao": "Sem portêo, o agente enviou sozinho. A promessa de 10 dias e 20% chegou à cliente antes de você ver."
       },
-      "legenda": "Simulação ilustrativa no navegador: nada é enviado. O erro no rascunho é proposital."
+      "legenda": "Simulaçêo ilustrativa no navegador: nada é enviado. O erro no rascunho é proposital."
     },
     {
       "tipo": "codigo",
       "titulo": "A ficha do agente de contatos e um ensaio",
-      "sub": "Troque o que está entre [colchetes]. Os contatos de exemplo são inventados.",
+      "sub": "Troque o que está entre [colchetes]. Os contatos de exemplo sêo inventados.",
       "blocos": [
         {
           "rot": "Ficha · agente de contatos novos",
           "icone": "arquivo",
-          "conteudo": "Papel: Você é o meu agente de contatos novos.\nSobre mim: [o que eu vendo, em uma linha]; planilha de contatos com as colunas nome, e-mail, empresa, pedido, data, situação; meu link de agenda: [seu link do Google Agenda, Calendly ou WhatsApp; sem link, apague esta parte]; tom: [simpático, curto, sem jargão].\nQuando: quando eu colar as mensagens novas e disser \"contatos\".\nPassos: 1) leia cada mensagem e tire nome, e-mail, empresa e o que a pessoa pediu; 2) monte as linhas da planilha com a data de hoje e a situação \"novo\"; 3) se o nome ou o e-mail já estiver na planilha que eu colei, marque \"atualizar\" em vez de criar outra linha; 4) escreva um rascunho de resposta de até 120 palavras para cada um: agradeça pelo nome, responda o pedido em uma ou duas frases e ofereça o link de agenda.\nRegras: só leia, nunca mude nem apague nada; salve tudo como rascunho, eu envio; nunca peça senha, tela de login = pare e me chame; nunca pague, aprove nem agende pagamento; nunca prometa preço, prazo ou desconto que não estejam nesta ficha; mensagem com cara de spam vai para a lista \"ignorados\" com o motivo; copie nomes e e-mails exatamente; se ficar em dúvida, pare e pergunte.\nEntrega: 1) as linhas novas da planilha; 2) os rascunhos, um por contato; 3) a lista \"ignorados\".\nPrimeira tarefa: rode agora com as mensagens que vou colar."
+          "conteudo": "Papel: Você é o meu agente de contatos novos.\nSobre mim: [o que eu vendo, em uma linha]; planilha de contatos com as colunas nome, e-mail, empresa, pedido, data, situaçêo; meu link de agenda: [seu link do Google Agenda, Calendly ou WhatsApp; sem link, apague esta parte]; tom: [simpático, curto, sem jargêo].\nQuando: quando eu colar as mensagens novas e disser \"contatos\".\nPassos: 1) leia cada mensagem e tire nome, e-mail, empresa e o que a pessoa pediu; 2) monte as linhas da planilha com a data de hoje e a situaçêo \"novo\"; 3) se o nome ou o e-mail já estiver na planilha que eu colei, marque \"atualizar\" em vez de criar outra linha; 4) escreva um rascunho de resposta de até 120 palavras para cada um: agradeça pelo nome, responda o pedido em uma ou duas frases e ofereça o link de agenda.\nRegras: só leia, nunca mude nem apague nada; salve tudo como rascunho, eu envio; nunca peça senha, tela de login = pare e me chame; nunca pague, aprove nem agende pagamento; nunca prometa preço, prazo ou desconto que nêo estejam nesta ficha; mensagem com cara de spam vai para a lista \"ignorados\" com o motivo; copie nomes e e-mails exatamente; se ficar em dúvida, pare e pergunte.\nEntrega: 1) as linhas novas da planilha; 2) os rascunhos, um por contato; 3) a lista \"ignorados\".\nPrimeira tarefa: rode agora com as mensagens que vou colar."
         },
         {
           "rot": "Ensaio · três mensagens e a planilha atual",
           "icone": "chat",
-          "conteudo": "contatos\n\nPlanilha atual:\nRoberto Lima | roberto@exemplo.com | Lima Advocacia | closet | 28/10 | novo\n\nMensagens novas:\n1) Ana Souza (ana@exemplo.com), Ana Decor: \"Qual o prazo de entrega de uma cozinha planejada?\"\n2) Roberto Lima (roberto@exemplo.com): \"Pedi um orçamento de closet na semana passada e ainda não recebi. Vocês conseguem me mandar?\"\n3) promo@exemplo.com: \"GANHE 10 MIL SEGUIDORES HOJE!!! Clique aqui\""
+          "conteudo": "contatos\n\nPlanilha atual:\nRoberto Lima | roberto@exemplo.com | Lima Advocacia | closet | 28/10 | novo\n\nMensagens novas:\n1) Ana Souza (ana@exemplo.com), Ana Decor: \"Qual o prazo de entrega de uma cozinha planejada?\"\n2) Roberto Lima (roberto@exemplo.com): \"Pedi um orçamento de closet na semana passada e ainda nêo recebi. Vocês conseguem me mandar?\"\n3) promo@exemplo.com: \"GANHE 10 MIL SEGUIDORES HOJE!!! Clique aqui\""
         }
       ],
       "saida": {
@@ -152,15 +152,15 @@
         "abas": [
           {
             "rot": "O que deve sair",
-            "html": "<ul><li><b>Ana Souza</b>: linha nova, situação \"novo\", rascunho sem prazo inventado.</li><li><b>Roberto Lima</b>: marcado \"atualizar\", não uma segunda linha.</li><li><b>promo@exemplo.com</b>: na lista \"ignorados\", com o motivo.</li><li>Dois rascunhos, nenhum enviado.</li></ul>"
+            "html": "<ul><li><b>Ana Souza</b>: linha nova, situaçêo \"novo\", rascunho sem prazo inventado.</li><li><b>Roberto Lima</b>: marcado \"atualizar\", nêo uma segunda linha.</li><li><b>promo@exemplo.com</b>: na lista \"ignorados\", com o motivo.</li><li>Dois rascunhos, nenhum enviado.</li></ul>"
           },
           {
             "rot": "Terminal (opcional)",
-            "html": "<p>Na pasta <code>meus-agentes/contatos</code>, com a ficha no <code>AGENTS.md</code> (ou <code>CLAUDE.md</code>), salve as mensagens em <code>novos.txt</code> e a planilha em <code>contatos.csv</code>. Peça: <code>codex exec --skip-git-repo-check -m gpt-6-luna -s read-only -o rascunhos.md \"contatos: siga o AGENTS.md\"</code>. O modo <code>read-only</code> não deixa o agente mudar a planilha: ele só escreve a resposta, que você confere.</p>"
+            "html": "<p>Na pasta <code>meus-agentes/contatos</code>, com a ficha no <code>AGENTS.md</code> (ou <code>CLAUDE.md</code>), salve as mensagens em <code>novos.txt</code> e a planilha em <code>contatos.csv</code>. Peça: <code>codex exec --skip-git-repo-check -m gpt-6-luna -s read-only -o rascunhos.md \"contatos: siga o AGENTS.md\"</code>. O modo <code>read-only</code> nêo deixa o agente mudar a planilha: ele só escreve a resposta, que você confere.</p>"
           },
           {
             "rot": "Erros comuns",
-            "html": "<ul><li><b>Deixar o agente \"responder sozinho só os fáceis\"</b>: o fácil de hoje é a promessa errada de amanhã.</li><li><b>Não colar a planilha atual</b>: sem ela, o agente não tem como saber que o Roberto já existe.</li><li><b>Apagar o spam sem olhar</b>: a lista de ignorados com o motivo deixa você pegar um cliente marcado por engano.</li></ul>"
+            "html": "<ul><li><b>Deixar o agente \"responder sozinho só os fáceis\"</b>: o fácil de hoje é a promessa errada de amanhê.</li><li><b>Nêo colar a planilha atual</b>: sem ela, o agente nêo tem como saber que o Roberto já existe.</li><li><b>Apagar o spam sem olhar</b>: a lista de ignorados com o motivo deixa você pegar um cliente marcado por engano.</li></ul>"
           }
         ]
       }
@@ -189,33 +189,33 @@
           "titulo": "E3 · Uma semana real",
           "min": "15 min",
           "texto": "Use com os contatos reais por uma semana. Leia cada rascunho antes de enviar e anote quantos você corrigiu.",
-          "pronto": "você tem o número de rascunhos aprovados sem mudança e dos corrigidos. Cada correção repetida virou uma regra na ficha."
+          "pronto": "você tem o número de rascunhos aprovados sem mudança e dos corrigidos. Cada correçêo repetida virou uma regra na ficha."
         }
       ]
     },
     {
       "tipo": "quiz",
       "titulo": "Teste o que aprendeu",
-      "sub": "A explicação aparece depois da sua resposta.",
+      "sub": "A explicaçêo aparece depois da sua resposta.",
       "perguntas": [
         {
-          "p": "O rascunho diz \"entregamos em 10 dias com 20% de desconto\", mas você nunca ofereceu isso. O que fazer no portão?",
+          "p": "O rascunho diz \"entregamos em 10 dias com 20% de desconto\", mas você nunca ofereceu isso. O que fazer no portêo?",
           "opcoes": [
             "Aprovar: o cliente gosta de desconto.",
-            "Reprovar com a correção e pôr na ficha a regra de não prometer preço, prazo ou desconto.",
+            "Reprovar com a correçêo e pôr na ficha a regra de nêo prometer preço, prazo ou desconto.",
             "Enviar e corrigir depois por telefone.",
             "Apagar o contato da planilha."
           ],
           "certa": 1,
-          "explica": "O portão existe para isso: pegar a promessa errada antes de sair. E a correção que se repete vira regra na ficha, para não voltar na semana seguinte.",
+          "explica": "O portêo existe para isso: pegar a promessa errada antes de sair. E a correçêo que se repete vira regra na ficha, para nêo voltar na semana seguinte.",
           "ref": "simportao"
         },
         {
-          "p": "O mesmo cliente escreveu de novo. Como o agente sabe que não deve criar outra linha?",
+          "p": "O mesmo cliente escreveu de novo. Como o agente sabe que nêo deve criar outra linha?",
           "opcoes": [
             "Ele lembra sozinho de todas as conversas antigas com aquele cliente, em qualquer Projeto ou conversa que você já abriu.",
             "Ele pergunta ao cliente se já mandou mensagem antes.",
-            "Ele não tem como saber; duplicar é inevitável.",
+            "Ele nêo tem como saber; duplicar é inevitável.",
             "Você cola a planilha atual junto e a ficha manda marcar \"atualizar\" quando o nome ou o e-mail já existe."
           ],
           "certa": 3,
@@ -223,7 +223,7 @@
           "ref": "codigo"
         },
         {
-          "p": "Qual destas tarefas o agente de contatos NÃO faz?",
+          "p": "Qual destas tarefas o agente de contatos NêO faz?",
           "opcoes": [
             "Separar o spam com o motivo.",
             "Escrever a resposta de cada contato como rascunho.",
@@ -231,7 +231,7 @@
             "Montar as linhas novas da planilha."
           ],
           "certa": 2,
-          "explica": "Enviar é seu. O agente lê, anota, escreve o rascunho e para no portão. É isso que faz a tarefa ter risco médio, e não alto.",
+          "explica": "Enviar é seu. O agente lê, anota, escreve o rascunho e para no portêo. É isso que faz a tarefa ter risco médio, e nêo alto.",
           "ref": "diagrama"
         }
       ]
@@ -245,12 +245,12 @@
           "texto": "Ler, anotar na planilha sem duplicar e escrever a resposta."
         },
         {
-          "t": "O portão é seu",
+          "t": "O portêo é seu",
           "texto": "Tudo que fala com o cliente sai como rascunho e passa por você."
         },
         {
-          "t": "Correção vira regra",
-          "texto": "O erro que você corrigiu duas vezes entra na ficha e não volta."
+          "t": "Correçêo vira regra",
+          "texto": "O erro que você corrigiu duas vezes entra na ficha e nêo volta."
         }
       ]
     }

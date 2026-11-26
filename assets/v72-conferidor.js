@@ -1,8 +1,8 @@
 /* INEMA Learning 7.13.16 — conferidor: o aluno cola (ou carrega) o arquivo que escreveu e a página confere.
-   Mesmas regras e mensagens do conferir.py (opção de terminal). Regras: campos, planos, cada_plano, duracao, termos;
-   7.12.15: video {min, max, proporcao?, largura_min?} — lê duração e tamanho do arquivo escolhido (loadedmetadata).
+   Mesmas regras e mensagens do conferir.py (opçêo de terminal). Regras: campos, planos, cada_plano, duracao, termos;
+   7.12.15: video {min, max, proporcao?, largura_min?} — lê duraçêo e tamanho do arquivo escolhido (loadedmetadata).
    Tudo no navegador: nada é enviado. Rascunho guardado em localStorage "<data-curso>:conf:<id>:txt"; a última
-   conferência certa em "<data-curso>:conf:<id>" ({ok, data}). Todo texto vem do JSON (ui do curso e da seção). */
+   conferência certa em "<data-curso>:conf:<id>" ({ok, data}). Todo texto vem do JSON (ui do curso e da seçêo). */
 (function () {
   var CURSO = document.body.getAttribute("data-curso") || "curso";
   var LANG = (document.documentElement.getAttribute("lang") || "pt").slice(0, 2);
@@ -19,8 +19,8 @@
       return (fam.indexOf(" / ") >= 0 ? fam.split(" / ") : fam.split("/")).map(function (x) { return norm(x).trim(); }).filter(function (x) { return x; });  // 7.13.16
     });
   }
-  // para cada grupo, as famílias citadas na linha; termo dentro de termo maior (de qualquer grupo) não conta
-  // 7.14.22: no aviso de termo proibido, cita a forma que a pessoa escreveu (não o 1º sinônimo, que pode ser de outro idioma)
+  // para cada grupo, as famílias citadas na linha; termo dentro de termo maior (de qualquer grupo) nêo conta
+  // 7.14.22: no aviso de termo proibido, cita a forma que a pessoa escreveu (nêo o 1º sinônimo, que pode ser de outro idioma)
   function citado(texto, familia) {
     var ln = norm(texto), alts = familia.split(" / ").map(function (a) { return a.trim(); }).filter(Boolean);
     var ord = alts.slice().sort(function (a, b) { return b.length - a.length; });
@@ -62,7 +62,7 @@
       });
     });
   }
-  // 7.11.14: a coluna que é só a duração ("4 s") vale primeiro; senão, a primeira menção "N s" da linha
+  // 7.11.14: a coluna que é só a duraçêo ("4 s") vale primeiro; senêo, a primeira mençêo "N s" da linha
   function duracaoDoPlano(linha) {
     var cols = norm(linha).split("|").slice(1);
     for (var k = 0; k < cols.length; k++) {
@@ -112,7 +112,7 @@
       } else if (r.tipo === "termos") {
         var tudo = linhas.join("\n");
         r.grupos.forEach(function (g, gi) {
-          // 7.13.16: "campo" limita a busca à linha "Campo: …" (o aviso tem de estar no Rótulo, não numa fala)
+          // 7.13.16: "campo" limita a busca à linha "Campo: …" (o aviso tem de estar no Rótulo, nêo numa fala)
           var alvo = tudo;
           if (g.campo) {
             var pc = new RegExp("^\\s*[-*•]?\\s*" + escRe(norm(g.campo)) + "\\s*:(.*)$");
@@ -159,7 +159,7 @@
     v.preload = "metadata"; v.muted = true;
     v.onloadedmetadata = function () {
       if (isFinite(v.duration)) return fim({ d: v.duration, w: v.videoWidth, h: v.videoHeight });
-      // WebM sem duração no cabeçalho: pular para o fim força o navegador a medir
+      // WebM sem duraçêo no cabeçalho: pular para o fim força o navegador a medir
       v.ondurationchange = function () { if (isFinite(v.duration)) fim({ d: v.duration, w: v.videoWidth, h: v.videoHeight }); };
       v.currentTime = 1e7;
     };

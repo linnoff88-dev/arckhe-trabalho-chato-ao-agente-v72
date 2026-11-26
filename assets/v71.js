@@ -124,7 +124,7 @@
       if (col) col.classList.remove("aberto");
       sc.classList.toggle("fixo", cabe);
       fig.classList.toggle("solto", !cabe);
-      /* altura travada: abrir coluna ou trocar legenda não empurra as etapas durante a rolagem */
+      /* altura travada: abrir coluna ou trocar legenda nêo empurra as etapas durante a rolagem */
       fig.style.minHeight = cabe ? alto + "px" : "";
     }
     function legenda(html) {
@@ -263,7 +263,7 @@
     comeca(perguntas.map(function (_, k) { return k; }));
   });
 
-  /* simulação da fila caseira: entrada → rodando → feito / falhou; Ctrl+C deixa a tarefa em "rodando" e a próxima rodada a devolve para a entrada */
+  /* simulaçêo da fila caseira: entrada → rodando → feito / falhou; Ctrl+C deixa a tarefa em "rodando" e a próxima rodada a devolve para a entrada */
   document.querySelectorAll(".simfila").forEach(function (sim) {
     var col = function (n) { return sim.querySelector('[data-col="' + n + '"] .itens'); };
     var cols = { entrada: col("entrada"), rodando: col("rodando"), feito: col("feito"), falhou: col("falhou") };
@@ -314,7 +314,7 @@
     var ini = g.querySelector(".ger-ini"), hs = g.querySelector(".ger-h");
     var hoje = new Date(); ini.value = ler("plano-ini", hoje.toISOString().slice(0, 10)); hs.value = ler("plano-h", hs.value);
     var ultimo = null;
-    /* 7.14.19: data no padrão do idioma da página (en: mm/dd; pt/es: dd/mm) */
+    /* 7.14.19: data no padrêo do idioma da página (en: mm/dd; pt/es: dd/mm) */
     var EN = /^en/i.test(document.documentElement.lang || "");
     function fmt(d) { var dd = ("0" + d.getDate()).slice(-2), mm = ("0" + (d.getMonth() + 1)).slice(-2); return EN ? mm + "/" + dd : dd + "/" + mm; }
     function ymd(d) { return d.getFullYear() + ("0" + (d.getMonth() + 1)).slice(-2) + ("0" + d.getDate()).slice(-2); }
